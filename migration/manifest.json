@@ -1,0 +1,3978 @@
+{
+  "source": {
+    "name": "基于MUSE-PI-PRO嵌入式机器人教程手册--百问科技.docx",
+    "bytes": 23784310,
+    "sha256": "407071f72b2c5b1014843e9bc752f4035045e4c0c592eaf56103ac93594fe9c5"
+  },
+  "template": {
+    "repository": "https://github.com/dshanpi/Docs",
+    "commit": "07cc305c1640f9802b7dc75acccc1647b0c1bad4"
+  },
+  "counts": {
+    "headings": 270,
+    "paragraphs": 2856,
+    "tables": 17,
+    "code_paragraphs": 5113,
+    "code_blocks": 465,
+    "equations": 2,
+    "chapters": 15,
+    "sections": 53,
+    "pages": 69,
+    "images": 189,
+    "image_occurrences": 188
+  },
+  "normalization": [
+    "Word cover fallback textboxes are deduplicated into the site title and original date.",
+    "Code non-breaking spaces are converted to ordinary spaces; tabs and line breaks are preserved.",
+    "Word page/section breaks and blank layout paragraphs are omitted.",
+    "Original heading numbering, captions, merged table cells and equations are retained."
+  ],
+  "pages": [
+    {
+      "title": "基于 MUSE-PI-PRO 嵌入式机器人教程手册",
+      "path": "intro.md",
+      "slug": "/",
+      "number": "",
+      "level": 0,
+      "sha256": "75b5ccdae6294722928ee7885db85a340b4806dc39d9b1881ca5990ea0cbd89b",
+      "bytes": 1292
+    },
+    {
+      "title": "第1章 开发板及系统环境介绍",
+      "path": "chapter-01/index.md",
+      "slug": "/chapter-01/",
+      "number": "1",
+      "level": 1,
+      "sha256": "45354ec8c57c96336d813a369de43c0d685513e3caad66822135e64801199ffd",
+      "bytes": 308
+    },
+    {
+      "title": "1.1 课程目标与开发板概述",
+      "path": "chapter-01/section-01.md",
+      "slug": "/chapter-01/section-01/",
+      "number": "1.1",
+      "level": 2,
+      "sha256": "b75b26b9b0330051c26dd31d2c12e26c2a758730fc3c6a9bcf15f30af5df5fea",
+      "bytes": 9364
+    },
+    {
+      "title": "1.2 系统环境介绍",
+      "path": "chapter-01/section-02.md",
+      "slug": "/chapter-01/section-02/",
+      "number": "1.2",
+      "level": 2,
+      "sha256": "814bc55a60978f94331fa887071dd0f5b3351aa16d8102650e68d0caf5dc32d3",
+      "bytes": 6385
+    },
+    {
+      "title": "1.3 开发板的启动与基本操作",
+      "path": "chapter-01/section-03.md",
+      "slug": "/chapter-01/section-03/",
+      "number": "1.3",
+      "level": 2,
+      "sha256": "b6acdc18f5c591d07b8a9f1389c12e6023cbd377388391ad1c024e201ed8f44c",
+      "bytes": 5786
+    },
+    {
+      "title": "第2章 开发环境搭建",
+      "path": "chapter-02/index.md",
+      "slug": "/chapter-02/",
+      "number": "2",
+      "level": 1,
+      "sha256": "67a7bfc82b53b0bdd715be5aae285d6948e4192e22fae7b9e8d2edc61436c578",
+      "bytes": 213
+    },
+    {
+      "title": "2.1 配置开发环境",
+      "path": "chapter-02/section-01.md",
+      "slug": "/chapter-02/section-01/",
+      "number": "2.1",
+      "level": 2,
+      "sha256": "8a5df689df3f78b2310e43c26c0a7b3a3ad444411d7816c6a532dd742ee34dc9",
+      "bytes": 5197
+    },
+    {
+      "title": "2.2 设置开发工具",
+      "path": "chapter-02/section-02.md",
+      "slug": "/chapter-02/section-02/",
+      "number": "2.2",
+      "level": 2,
+      "sha256": "c0ca322ee007348228c2021894b9e3a63c9721f4de40f99f54c48dceb4926828",
+      "bytes": 4737
+    },
+    {
+      "title": "第3章 BianbuOS使用入门",
+      "path": "chapter-03/index.md",
+      "slug": "/chapter-03/",
+      "number": "3",
+      "level": 1,
+      "sha256": "62755559829debeacb437fd47c09577002d8e74ec9718349dc7ca6c1029d6efa",
+      "bytes": 256
+    },
+    {
+      "title": "3.1 Linux常用指令",
+      "path": "chapter-03/section-01.md",
+      "slug": "/chapter-03/section-01/",
+      "number": "3.1",
+      "level": 2,
+      "sha256": "5bb9bec06f9728fd6a58e7b9f8c757eda4fd5ba25035eaf7ba868870cfddef82",
+      "bytes": 26318
+    },
+    {
+      "title": "3.2 包管理入门",
+      "path": "chapter-03/section-02.md",
+      "slug": "/chapter-03/section-02/",
+      "number": "3.2",
+      "level": 2,
+      "sha256": "87325ab2b97b74f29035b47681586d2031a62449df572f68d5a3286ff20e716b",
+      "bytes": 5111
+    },
+    {
+      "title": "3.3 Linux进程管理",
+      "path": "chapter-03/section-03.md",
+      "slug": "/chapter-03/section-03/",
+      "number": "3.3",
+      "level": 2,
+      "sha256": "54b286b47254ca453fa28e0daef1e308b87d533555797e2dd922a3be7a897b98",
+      "bytes": 4238
+    },
+    {
+      "title": "第4章 GCC编译器的使用",
+      "path": "chapter-04/index.md",
+      "slug": "/chapter-04/",
+      "number": "4",
+      "level": 1,
+      "sha256": "b7dec9a023875f4b6ff14d9e8c32e3e6e5ea2a00fea6fb8a320c572feefe825c",
+      "bytes": 569
+    },
+    {
+      "title": "4.1 GCC编译过程(精简版)",
+      "path": "chapter-04/section-01.md",
+      "slug": "/chapter-04/section-01/",
+      "number": "4.1",
+      "level": 2,
+      "sha256": "20298428973fe52f0d2651815b8a503012e109e655f4c6191a65bd160fb4b8dd",
+      "bytes": 3919
+    },
+    {
+      "title": "第5章 Makefile的使用",
+      "path": "chapter-05/index.md",
+      "slug": "/chapter-05/",
+      "number": "5",
+      "level": 1,
+      "sha256": "32a02ba62413b5fd2ab4d298e532a803dfab3fe7b0d743a77ab5adba0937f362",
+      "bytes": 1086
+    },
+    {
+      "title": "5.1 Makefile的引入及规则",
+      "path": "chapter-05/section-01.md",
+      "slug": "/chapter-05/section-01/",
+      "number": "5.1",
+      "level": 2,
+      "sha256": "903622382dc3860daa068c9cd4682090d785fc33dce9bb0113659223438b2a5b",
+      "bytes": 8999
+    },
+    {
+      "title": "5.2 Makefile规则",
+      "path": "chapter-05/section-02.md",
+      "slug": "/chapter-05/section-02/",
+      "number": "5.2",
+      "level": 2,
+      "sha256": "41f2efff6c9cab4af7cdb7aa8dd2239381a107458dd55ce316986275619bf07e",
+      "bytes": 1760
+    },
+    {
+      "title": "5.3 Makefile文件里的赋值方法",
+      "path": "chapter-05/section-03.md",
+      "slug": "/chapter-05/section-03/",
+      "number": "5.3",
+      "level": 2,
+      "sha256": "3cc9e53be1db6c9f2e2d22d47e07c4278f5674c41fad88ceb2779e1813b17157",
+      "bytes": 1038
+    },
+    {
+      "title": "5.4 Makefile常用函数",
+      "path": "chapter-05/section-04.md",
+      "slug": "/chapter-05/section-04/",
+      "number": "5.4",
+      "level": 2,
+      "sha256": "5f820fad07e995fa996d4cebff3c2ec1d46662311d8d6ec6ebc6c894e2e93ec4",
+      "bytes": 9707
+    },
+    {
+      "title": "第6章 文件基础操作",
+      "path": "chapter-06/index.md",
+      "slug": "/chapter-06/",
+      "number": "6",
+      "level": 1,
+      "sha256": "38ef4028ddbb4c8a37c097020fb2d92245c91d16d46145789638f4d187182aea",
+      "bytes": 512
+    },
+    {
+      "title": "6.1 文件IO函数分类",
+      "path": "chapter-06/section-01.md",
+      "slug": "/chapter-06/section-01/",
+      "number": "6.1",
+      "level": 2,
+      "sha256": "5600717a1050bde677dfbeb28d5d6e30d69e4f28a6fc3f3dc70b13bac1669980",
+      "bytes": 863
+    },
+    {
+      "title": "6.2 使用open函数打开文件",
+      "path": "chapter-06/section-02.md",
+      "slug": "/chapter-06/section-02/",
+      "number": "6.2",
+      "level": 2,
+      "sha256": "7bf011dcd725409b7efce9204bb875e21cb5b881658b767e3f990a92d00862c8",
+      "bytes": 1920
+    },
+    {
+      "title": "6.3 使用open函数创建文件",
+      "path": "chapter-06/section-03.md",
+      "slug": "/chapter-06/section-03/",
+      "number": "6.3",
+      "level": 2,
+      "sha256": "b12b7908eccafa1f29cbfde3ce5c2d4f3ed62469f74795e70051bc1a287a0312",
+      "bytes": 1675
+    },
+    {
+      "title": "6.4 使用write函数写文件",
+      "path": "chapter-06/section-04.md",
+      "slug": "/chapter-06/section-04/",
+      "number": "6.4",
+      "level": 2,
+      "sha256": "77cfc0c6df04ddd0e94106322c50990ca11ff60fcc5120e1b5876b6ab3ae841a",
+      "bytes": 2112
+    },
+    {
+      "title": "6.5 使用read函数读取文件",
+      "path": "chapter-06/section-05.md",
+      "slug": "/chapter-06/section-05/",
+      "number": "6.5",
+      "level": 2,
+      "sha256": "d7140c3719b6c6b2fdf479811c68f7a5e147654e9782acd7d85d33223acecbab",
+      "bytes": 2424
+    },
+    {
+      "title": "6.6 文件IO系统调用内部机制",
+      "path": "chapter-06/section-06.md",
+      "slug": "/chapter-06/section-06/",
+      "number": "6.6",
+      "level": 2,
+      "sha256": "8ee3ae1c9470a3e180ce3592fa4a5314f27b213376e959257c3f5f82e5a242fc",
+      "bytes": 801
+    },
+    {
+      "title": "6.7 内核的sys_open、sys_read会做什么？",
+      "path": "chapter-06/section-07.md",
+      "slug": "/chapter-06/section-07/",
+      "number": "6.7",
+      "level": 2,
+      "sha256": "a1ce7bdbce0df59b7566e5f10edaecb6d4bd77b179139929241fd645762e4491",
+      "bytes": 501
+    },
+    {
+      "title": "第7章 多进程编程",
+      "path": "chapter-07/index.md",
+      "slug": "/chapter-07/",
+      "number": "7",
+      "level": 1,
+      "sha256": "fe12e6864aa26a93dc9a0f555303d8cce431949f9f44a46b134dbb80f4897ece",
+      "bytes": 251
+    },
+    {
+      "title": "7.1 为什么使用多进程",
+      "path": "chapter-07/section-01.md",
+      "slug": "/chapter-07/section-01/",
+      "number": "7.1",
+      "level": 2,
+      "sha256": "da41024e11ae3364b74f7b13623a9c4f0e7f8fed25caaf4e3f12df665a9c7e55",
+      "bytes": 887
+    },
+    {
+      "title": "7.2 进程的创建",
+      "path": "chapter-07/section-02.md",
+      "slug": "/chapter-07/section-02/",
+      "number": "7.2",
+      "level": 2,
+      "sha256": "49ac3eb61db675e95964c26175cf1c9d835126ffa988d5196fa634dd978dd1b3",
+      "bytes": 5430
+    },
+    {
+      "title": "7.3 进程间通信",
+      "path": "chapter-07/section-03.md",
+      "slug": "/chapter-07/section-03/",
+      "number": "7.3",
+      "level": 2,
+      "sha256": "3b74323885c8ef0e4d1537d5c7f7cf3a1284789be241c16ba0e730ed3f665681",
+      "bytes": 33535
+    },
+    {
+      "title": "第8章 网络通信",
+      "path": "chapter-08/index.md",
+      "slug": "/chapter-08/",
+      "number": "8",
+      "level": 1,
+      "sha256": "1ef0817d765dcbd2e4684c4330d32a44f45a16f89b23d299e0ea9da354538fb8",
+      "bytes": 283
+    },
+    {
+      "title": "8.1 网络通信概述",
+      "path": "chapter-08/section-01.md",
+      "slug": "/chapter-08/section-01/",
+      "number": "8.1",
+      "level": 2,
+      "sha256": "4e6ab126856fd8770eafa29aac714d021050a6b8ff709b0098460589e565d5b3",
+      "bytes": 5595
+    },
+    {
+      "title": "8.2 网络编程主要函数介绍",
+      "path": "chapter-08/section-02.md",
+      "slug": "/chapter-08/section-02/",
+      "number": "8.2",
+      "level": 2,
+      "sha256": "9232343ed05c3b6f82f6d4e464683cf945657c23493e71bf72687671c3334c85",
+      "bytes": 5647
+    },
+    {
+      "title": "8.3 TCP编程",
+      "path": "chapter-08/section-03.md",
+      "slug": "/chapter-08/section-03/",
+      "number": "8.3",
+      "level": 2,
+      "sha256": "eb6c9d9df5cd52a8b480a75d9c14e38b447b4b5adcef5636ebaa659984173416",
+      "bytes": 5239
+    },
+    {
+      "title": "8.4 UDP编程",
+      "path": "chapter-08/section-04.md",
+      "slug": "/chapter-08/section-04/",
+      "number": "8.4",
+      "level": 2,
+      "sha256": "5434c57e8959af47f4e45c33d2e14da92238f18b4a8dde108d71a11ba59f9d72",
+      "bytes": 4242
+    },
+    {
+      "title": "第9章 多线程编程",
+      "path": "chapter-09/index.md",
+      "slug": "/chapter-09/",
+      "number": "9",
+      "level": 1,
+      "sha256": "9158a7f8f64cca4976858859e2012dad2c26645d372d7bc748c74226d93cbedf",
+      "bytes": 595
+    },
+    {
+      "title": "9.1 线程的使用",
+      "path": "chapter-09/section-01.md",
+      "slug": "/chapter-09/section-01/",
+      "number": "9.1",
+      "level": 2,
+      "sha256": "dc1743169872fd91ef30b82bb4fe2d38aa8bdda57f81fc01ae517eb165a5e702",
+      "bytes": 19083
+    },
+    {
+      "title": "9.2 线程的控制",
+      "path": "chapter-09/section-02.md",
+      "slug": "/chapter-09/section-02/",
+      "number": "9.2",
+      "level": 2,
+      "sha256": "efaec0fa00ae18480cbfd86bab581b5970e5ef2dc253de7908d3613b8361cac0",
+      "bytes": 15509
+    },
+    {
+      "title": "9.3 总结",
+      "path": "chapter-09/section-03.md",
+      "slug": "/chapter-09/section-03/",
+      "number": "9.3",
+      "level": 2,
+      "sha256": "47f6366162e1473e61bf7b5e1ffd99240084354a05ef826020af540bdcd3cd1e",
+      "bytes": 1485
+    },
+    {
+      "title": "第10章 I2C应用编程",
+      "path": "chapter-10/index.md",
+      "slug": "/chapter-10/",
+      "number": "10",
+      "level": 1,
+      "sha256": "21c293e330188f3fe7dd7ded2212e79737de4b2ff3e19f1bf0e7d4b5616c284d",
+      "bytes": 411
+    },
+    {
+      "title": "10.1 I2C介绍",
+      "path": "chapter-10/section-01.md",
+      "slug": "/chapter-10/section-01/",
+      "number": "10.1",
+      "level": 2,
+      "sha256": "b5697556550defff485028dad3e33d7c397dba50ff6c8d13be621353a7f3426b",
+      "bytes": 2415
+    },
+    {
+      "title": "10.2 I2C协议",
+      "path": "chapter-10/section-02.md",
+      "slug": "/chapter-10/section-02/",
+      "number": "10.2",
+      "level": 2,
+      "sha256": "5887bec4eb8f55ecc6b6844eb019bbce8209a85f9f03e8b3560f6e72bd574082",
+      "bytes": 7455
+    },
+    {
+      "title": "10.3 SMBus协议",
+      "path": "chapter-10/section-03.md",
+      "slug": "/chapter-10/section-03/",
+      "number": "10.3",
+      "level": 2,
+      "sha256": "bb4c276e7c245e842713d60d69e801139865b0deffc990c0ccf90f986b875d27",
+      "bytes": 10447
+    },
+    {
+      "title": "10.4 I2C系统的重要结构体",
+      "path": "chapter-10/section-04.md",
+      "slug": "/chapter-10/section-04/",
+      "number": "10.4",
+      "level": 2,
+      "sha256": "1f45b3e5f7ffe2878b353c6adc4101edacd2bcfa9cca3d5bc2bde8bed55d29e1",
+      "bytes": 3168
+    },
+    {
+      "title": "10.5 无需编写驱动程序即可访问I2C设备",
+      "path": "chapter-10/section-05.md",
+      "slug": "/chapter-10/section-05/",
+      "number": "10.5",
+      "level": 2,
+      "sha256": "d13ee94f3a2897d69cfe2dd040a7ed6d5d3a91c06f9ada3002932d98e11301ac",
+      "bytes": 10399
+    },
+    {
+      "title": "10.6 编写APP直接访问BMP280",
+      "path": "chapter-10/section-06.md",
+      "slug": "/chapter-10/section-06/",
+      "number": "10.6",
+      "level": 2,
+      "sha256": "e787c00255f282502f3a758d58ee5b9ef21e1731966fe25ec9bbe12d17c102df",
+      "bytes": 2570
+    },
+    {
+      "title": "第11章 PWM与GPIO开发",
+      "path": "chapter-11/index.md",
+      "slug": "/chapter-11/",
+      "number": "11",
+      "level": 1,
+      "sha256": "dd5cfd502e37f5acccd8dcee5474a49d77e1dca1b0a42f0857152365e203e284",
+      "bytes": 196
+    },
+    {
+      "title": "11.1 GPIO控制",
+      "path": "chapter-11/section-01.md",
+      "slug": "/chapter-11/section-01/",
+      "number": "11.1",
+      "level": 2,
+      "sha256": "f1a61cff4b35e6d58ec306bccc15ed4b1841e2d1f107bcac3933ccb79ee9b885",
+      "bytes": 7121
+    },
+    {
+      "title": "11.2 PWM控制",
+      "path": "chapter-11/section-02.md",
+      "slug": "/chapter-11/section-02/",
+      "number": "11.2",
+      "level": 2,
+      "sha256": "627b354d595bd577cfc8b16467f22756e1786911a84a0c5939758cefd71dbde4",
+      "bytes": 8222
+    },
+    {
+      "title": "第12章 Linux驱动基础知识",
+      "path": "chapter-12/index.md",
+      "slug": "/chapter-12/",
+      "number": "12",
+      "level": 1,
+      "sha256": "bc8a6ca623d0556df4bfa07c742ab19147ea7e101edeadd99504239610847717",
+      "bytes": 227
+    },
+    {
+      "title": "12.1 本地编译内核",
+      "path": "chapter-12/section-01.md",
+      "slug": "/chapter-12/section-01/",
+      "number": "12.1",
+      "level": 2,
+      "sha256": "9a1bcc0c1436ab30f7d00f3e09cf4ef1ccf244a2365484fe046d2a232aabf412",
+      "bytes": 2288
+    },
+    {
+      "title": "12.2 设备驱动基础",
+      "path": "chapter-12/section-02.md",
+      "slug": "/chapter-12/section-02/",
+      "number": "12.2",
+      "level": 2,
+      "sha256": "f01bcc270f61fca3e705b4401f175de188f27c61f9b78ce96a96a9560e511114",
+      "bytes": 11721
+    },
+    {
+      "title": "第13章 Linux SPI开发",
+      "path": "chapter-13/index.md",
+      "slug": "/chapter-13/",
+      "number": "13",
+      "level": 1,
+      "sha256": "9271af6f71aa0fb225af7530a3c3aa40a61e5dfac2718e8cc6dc2283a73a936c",
+      "bytes": 382
+    },
+    {
+      "title": "13.1 SPI协议介绍",
+      "path": "chapter-13/section-01.md",
+      "slug": "/chapter-13/section-01/",
+      "number": "13.1",
+      "level": 2,
+      "sha256": "525c401d3fc43beb43b09c3a1b4a52523cfb7a97fdc621cc5cd306cebfafef45",
+      "bytes": 2044
+    },
+    {
+      "title": "13.2 用户态SPI编程接口",
+      "path": "chapter-13/section-02.md",
+      "slug": "/chapter-13/section-02/",
+      "number": "13.2",
+      "level": 2,
+      "sha256": "932e6492a2dd219dac6c93263be989479d1b543a2632f482f0a3459d137d0bf2",
+      "bytes": 4013
+    },
+    {
+      "title": "13.3 Linux SPI设备的两种访问方法",
+      "path": "chapter-13/section-03.md",
+      "slug": "/chapter-13/section-03/",
+      "number": "13.3",
+      "level": 2,
+      "sha256": "6ac663f64636f96fe4484b45264c76dcea35ce482fc4167277969c5dd72f061c",
+      "bytes": 1941
+    },
+    {
+      "title": "13.4 Linux SPI设备驱动",
+      "path": "chapter-13/section-04.md",
+      "slug": "/chapter-13/section-04/",
+      "number": "13.4",
+      "level": 2,
+      "sha256": "a40b4a590c4ab7382a50eb5e252e9f02c4fde0ee37a5d8808313357889024319",
+      "bytes": 5128
+    },
+    {
+      "title": "13.5 SPI接口传感器编程示例",
+      "path": "chapter-13/section-05.md",
+      "slug": "/chapter-13/section-05/",
+      "number": "13.5",
+      "level": 2,
+      "sha256": "7b919bb02a7334282aa0604863aa950c12b50652339c53c8335fd82c6a340abd",
+      "bytes": 4175
+    },
+    {
+      "title": "第14章 ROS2入门与应用",
+      "path": "chapter-14/index.md",
+      "slug": "/chapter-14/",
+      "number": "14",
+      "level": 1,
+      "sha256": "dc59b5c75c88baab1a8915c50078d50f49860076151079543842caf3ca5a00fc",
+      "bytes": 334
+    },
+    {
+      "title": "14.1 ROS2简介",
+      "path": "chapter-14/section-01.md",
+      "slug": "/chapter-14/section-01/",
+      "number": "14.1",
+      "level": 2,
+      "sha256": "f6952bd47832edbedb187e3804a1734c2e6db3ef93419c964fc871f3b2f21967",
+      "bytes": 6263
+    },
+    {
+      "title": "14.2 ROS2开发环境搭建（Humble版本）",
+      "path": "chapter-14/section-02.md",
+      "slug": "/chapter-14/section-02/",
+      "number": "14.2",
+      "level": 2,
+      "sha256": "a47c2805e91c7527de1664db31df47183ba5b3c55e043f337d3203c05752a99e",
+      "bytes": 9423
+    },
+    {
+      "title": "14.3 ROS2节点与通信",
+      "path": "chapter-14/section-03.md",
+      "slug": "/chapter-14/section-03/",
+      "number": "14.3",
+      "level": 2,
+      "sha256": "f9ba1a667e4c936e47381f9167b8c8be5eb40f7327eea58ecde1b89da44c7f0f",
+      "bytes": 60727
+    },
+    {
+      "title": "14.4 基于ROS2的机器人控制",
+      "path": "chapter-14/section-04.md",
+      "slug": "/chapter-14/section-04/",
+      "number": "14.4",
+      "level": 2,
+      "sha256": "37bd38b975a0a83ae14e014edb397c234187489ee305595a1cfad00d433c963d",
+      "bytes": 17885
+    },
+    {
+      "title": "第15章 外围调试实战",
+      "path": "chapter-15/index.md",
+      "slug": "/chapter-15/",
+      "number": "15",
+      "level": 1,
+      "sha256": "da5635bca21607126f649648ee33bc50e4dbc5dac842a2f14c8a21cef8c056e9",
+      "bytes": 295
+    },
+    {
+      "title": "15.1 超声波调试",
+      "path": "chapter-15/section-01.md",
+      "slug": "/chapter-15/section-01/",
+      "number": "15.1",
+      "level": 2,
+      "sha256": "8e390d28a29d3fe7e1ee78832b964e7093ff0c109335c7d65a605b340d05407d",
+      "bytes": 7359
+    },
+    {
+      "title": "15.2 电机控制",
+      "path": "chapter-15/section-02.md",
+      "slug": "/chapter-15/section-02/",
+      "number": "15.2",
+      "level": 2,
+      "sha256": "e146b66b056d517c0be7d041580fe206b5d1abd951a9afb44c25e00ee6e3bc5d",
+      "bytes": 11818
+    },
+    {
+      "title": "15.3 摄像头模块调试",
+      "path": "chapter-15/section-03.md",
+      "slug": "/chapter-15/section-03/",
+      "number": "15.3",
+      "level": 2,
+      "sha256": "763cc57358e04a2b3905695f3cb4b809f5a4833530c9ede85d432fd106895e25",
+      "bytes": 10496
+    },
+    {
+      "title": "15.4 综合实战",
+      "path": "chapter-15/section-04.md",
+      "slug": "/chapter-15/section-04/",
+      "number": "15.4",
+      "level": 2,
+      "sha256": "60b269c69f728a7c8d1c739a9dc3df85d7cc6352af87d1c2782c71cda6e760c4",
+      "bytes": 4088
+    }
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "title": "开发板及系统环境介绍",
+      "number": "1",
+      "page": "chapter-01/index.md"
+    },
+    {
+      "level": 2,
+      "title": "课程目标与开发板概述",
+      "number": "1.1",
+      "page": "chapter-01/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "课程目标介绍",
+      "number": "1.1.1",
+      "page": "chapter-01/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "开发板概述",
+      "number": "1.1.2",
+      "page": "chapter-01/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "开发板的硬件特性",
+      "number": "1.1.3",
+      "page": "chapter-01/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "系统环境介绍",
+      "number": "1.2",
+      "page": "chapter-01/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "BianbuOS简介",
+      "number": "1.2.1",
+      "page": "chapter-01/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "硬件与软件开发环境",
+      "number": "1.2.2",
+      "page": "chapter-01/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "开发板的启动与基本操作",
+      "number": "1.3",
+      "page": "chapter-01/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "启动开发板",
+      "number": "1.3.1",
+      "page": "chapter-01/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "登录系统",
+      "number": "1.3.2",
+      "page": "chapter-01/section-03.md"
+    },
+    {
+      "level": 1,
+      "title": "开发环境搭建",
+      "number": "2",
+      "page": "chapter-02/index.md"
+    },
+    {
+      "level": 2,
+      "title": "配置开发环境",
+      "number": "2.1",
+      "page": "chapter-02/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "安装必要的必要开发工具",
+      "number": "2.1.1",
+      "page": "chapter-02/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "SSH远程登录与文件传输",
+      "number": "2.1.2",
+      "page": "chapter-02/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "设置开发工具",
+      "number": "2.2",
+      "page": "chapter-02/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "安装和配置VSCodium",
+      "number": "2.2.1",
+      "page": "chapter-02/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "使用Remote-SSH连接开发板",
+      "number": "2.2.2",
+      "page": "chapter-02/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "VSCodium远程开发",
+      "number": "2.2.3",
+      "page": "chapter-02/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "Hello程序及背后知识",
+      "number": "2.2.4",
+      "page": "chapter-02/section-02.md"
+    },
+    {
+      "level": 1,
+      "title": "BianbuOS使用入门",
+      "number": "3",
+      "page": "chapter-03/index.md"
+    },
+    {
+      "level": 2,
+      "title": "Linux常用指令",
+      "number": "3.1",
+      "page": "chapter-03/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "目录/文件操作命令",
+      "number": "3.1.1",
+      "page": "chapter-03/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "改变文件的权限和属性",
+      "number": "3.1.2",
+      "page": "chapter-03/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "查找/搜索命令",
+      "number": "3.1.3",
+      "page": "chapter-03/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "压缩/解压命令",
+      "number": "3.1.4",
+      "page": "chapter-03/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "网络命令",
+      "number": "3.1.5",
+      "page": "chapter-03/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "vi编辑器的使用",
+      "number": "3.1.6",
+      "page": "chapter-03/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "其他命令",
+      "number": "3.1.7",
+      "page": "chapter-03/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "包管理入门",
+      "number": "3.2",
+      "page": "chapter-03/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "软件包管理系统",
+      "number": "3.2.1",
+      "page": "chapter-03/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "apt命令使用",
+      "number": "3.2.2",
+      "page": "chapter-03/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "更新BianbuOS软件源",
+      "number": "3.2.3",
+      "page": "chapter-03/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "Linux进程管理",
+      "number": "3.3",
+      "page": "chapter-03/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "什么是进程？",
+      "number": "3.3.1",
+      "page": "chapter-03/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "进程的生命周期",
+      "number": "3.3.2",
+      "page": "chapter-03/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "ps查看进程",
+      "number": "3.3.3",
+      "page": "chapter-03/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "top查看进程",
+      "number": "3.3.4",
+      "page": "chapter-03/section-03.md"
+    },
+    {
+      "level": 1,
+      "title": "GCC编译器的使用",
+      "number": "4",
+      "page": "chapter-04/index.md"
+    },
+    {
+      "level": 2,
+      "title": "GCC编译过程(精简版)",
+      "number": "4.1",
+      "page": "chapter-04/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "常用编译选项",
+      "number": "4.1.1",
+      "page": "chapter-04/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "怎么编译多个文件",
+      "number": "4.1.2",
+      "page": "chapter-04/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "制作、使用动态库",
+      "number": "4.1.3",
+      "page": "chapter-04/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "制作、使用静态库",
+      "number": "4.1.4",
+      "page": "chapter-04/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "很有用的选项",
+      "number": "4.1.5",
+      "page": "chapter-04/section-01.md"
+    },
+    {
+      "level": 1,
+      "title": "Makefile的使用",
+      "number": "5",
+      "page": "chapter-05/index.md"
+    },
+    {
+      "level": 2,
+      "title": "Makefile的引入及规则",
+      "number": "5.1",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "Makefile规则与示例",
+      "number": "5.1.1",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "为什么需要Makefile",
+      "number": "5.1.1.1",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "Makefile其实挺简单",
+      "number": "5.1.1.2",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "先介绍Makefile的2个函数",
+      "number": "5.1.1.3",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "一步一步完善Makefile",
+      "number": "5.1.1.4",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "通用Makefile的使用",
+      "number": "5.1.2",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "通用Makefile的解析",
+      "number": "5.1.3",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "通用Makefile的设计思想",
+      "number": "5.1.4",
+      "page": "chapter-05/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "Makefile规则",
+      "number": "5.2",
+      "page": "chapter-05/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "Makefile文件里的赋值方法",
+      "number": "5.3",
+      "page": "chapter-05/section-03.md"
+    },
+    {
+      "level": 2,
+      "title": "Makefile常用函数",
+      "number": "5.4",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 3,
+      "title": "字符串替换和分析函数",
+      "number": "5.4.1",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(subst from,to,text)",
+      "number": "5.4.1.1",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(patsubst pattern,replacement,text)",
+      "number": "5.4.1.2",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(strip string)",
+      "number": "5.4.1.3",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(findstring find,in)",
+      "number": "5.4.1.4",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(filter pattern...,text)",
+      "number": "5.4.1.5",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(filter-out pattern...,text)",
+      "number": "5.4.1.6",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(sort list)",
+      "number": "5.4.1.7",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 3,
+      "title": "文件名函数",
+      "number": "5.4.2",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(dir names...)",
+      "number": "5.4.2.1",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(notdir names...)",
+      "number": "5.4.2.2",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(suffix names...)",
+      "number": "5.4.2.3",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(basename names...)",
+      "number": "5.4.2.4",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(addsuffix suffix,names...)",
+      "number": "5.4.2.5",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(addprefix prefix,names...)",
+      "number": "5.4.2.6",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(wildcard pattern)",
+      "number": "5.4.2.7",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 3,
+      "title": "其他函数",
+      "number": "5.4.3",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(foreach var,list,text)",
+      "number": "5.4.3.1",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(if condition,then-part[,else-part])",
+      "number": "5.4.3.2",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(origin variable)",
+      "number": "5.4.3.3",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "$(shell command arguments)",
+      "number": "5.4.3.4",
+      "page": "chapter-05/section-04.md"
+    },
+    {
+      "level": 1,
+      "title": "文件基础操作",
+      "number": "6",
+      "page": "chapter-06/index.md"
+    },
+    {
+      "level": 2,
+      "title": "文件IO函数分类",
+      "number": "6.1",
+      "page": "chapter-06/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "使用open函数打开文件",
+      "number": "6.2",
+      "page": "chapter-06/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "使用open函数创建文件",
+      "number": "6.3",
+      "page": "chapter-06/section-03.md"
+    },
+    {
+      "level": 2,
+      "title": "使用write函数写文件",
+      "number": "6.4",
+      "page": "chapter-06/section-04.md"
+    },
+    {
+      "level": 2,
+      "title": "使用read函数读取文件",
+      "number": "6.5",
+      "page": "chapter-06/section-05.md"
+    },
+    {
+      "level": 2,
+      "title": "文件IO系统调用内部机制",
+      "number": "6.6",
+      "page": "chapter-06/section-06.md"
+    },
+    {
+      "level": 2,
+      "title": "内核的sys_open、sys_read会做什么？",
+      "number": "6.7",
+      "page": "chapter-06/section-07.md"
+    },
+    {
+      "level": 1,
+      "title": "多进程编程",
+      "number": "7",
+      "page": "chapter-07/index.md"
+    },
+    {
+      "level": 2,
+      "title": "为什么使用多进程",
+      "number": "7.1",
+      "page": "chapter-07/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "进程的创建",
+      "number": "7.2",
+      "page": "chapter-07/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "进程间通信",
+      "number": "7.3",
+      "page": "chapter-07/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "管道",
+      "number": "7.3.1",
+      "page": "chapter-07/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "消息队列",
+      "number": "7.3.2",
+      "page": "chapter-07/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "共享内存",
+      "number": "7.3.3",
+      "page": "chapter-07/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "信号",
+      "number": "7.3.4",
+      "page": "chapter-07/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "信号量",
+      "number": "7.3.5",
+      "page": "chapter-07/section-03.md"
+    },
+    {
+      "level": 1,
+      "title": "网络通信",
+      "number": "8",
+      "page": "chapter-08/index.md"
+    },
+    {
+      "level": 2,
+      "title": "网络通信概述",
+      "number": "8.1",
+      "page": "chapter-08/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "IP和端口",
+      "number": "8.1.1",
+      "page": "chapter-08/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "网络传输中的2个对象：server和client",
+      "number": "8.1.2",
+      "page": "chapter-08/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "两种传输方式：TCP/UDP",
+      "number": "8.1.3",
+      "page": "chapter-08/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "TCP和UDP 原理上的区别",
+      "number": "8.1.3.1",
+      "page": "chapter-08/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "为何存在UDP协议",
+      "number": "8.1.3.2",
+      "page": "chapter-08/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "TCP/UDP网络通信大概交互图",
+      "number": "8.1.3.3",
+      "page": "chapter-08/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "网络编程主要函数介绍",
+      "number": "8.2",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "socket函数",
+      "number": "8.2.1",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "bind函数",
+      "number": "8.2.2",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "listen函数",
+      "number": "8.2.3",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "accept函数",
+      "number": "8.2.4",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "connect函数",
+      "number": "8.2.5",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "send函数",
+      "number": "8.2.6",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "recv函数",
+      "number": "8.2.7",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "recvfrom函数",
+      "number": "8.2.8",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "sendto函数",
+      "number": "8.2.9",
+      "page": "chapter-08/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "TCP编程",
+      "number": "8.3",
+      "page": "chapter-08/section-03.md"
+    },
+    {
+      "level": 2,
+      "title": "UDP编程",
+      "number": "8.4",
+      "page": "chapter-08/section-04.md"
+    },
+    {
+      "level": 1,
+      "title": "多线程编程",
+      "number": "9",
+      "page": "chapter-09/index.md"
+    },
+    {
+      "level": 2,
+      "title": "线程的使用",
+      "number": "9.1",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "为什么要使用多线程",
+      "number": "9.1.1",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "线程概念",
+      "number": "9.1.2",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "线程的标识pthread_t",
+      "number": "9.1.3",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "线程的创建",
+      "number": "9.1.4",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "向线程传入参数",
+      "number": "9.1.5",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "线程的退出与回收",
+      "number": "9.1.6",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "线程主动退出",
+      "number": "9.1.6.1",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "线程被动退出",
+      "number": "9.1.6.2",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "线程资源回收(阻塞方式)",
+      "number": "9.1.6.3",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "线程资源回收(非阻塞方式)",
+      "number": "9.1.6.4",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "程序示例1",
+      "number": "9.1.6.5",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "程序示例2",
+      "number": "9.1.6.6",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "程序示例3",
+      "number": "9.1.6.7",
+      "page": "chapter-09/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "线程的控制",
+      "number": "9.2",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "多线程编临界资源访问",
+      "number": "9.2.1",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "互斥锁API简述",
+      "number": "9.2.2",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "初始化互斥量",
+      "number": "9.2.2.1",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "互斥量加锁/解锁",
+      "number": "9.2.2.2",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "互斥量加锁(非阻塞方式)",
+      "number": "9.2.2.3",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "互斥量加锁(非祖师方式)",
+      "number": "9.2.2.4",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "程序示例",
+      "number": "9.2.2.5",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "多线程编执行顺序控制",
+      "number": "9.2.3",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "信号量API简述",
+      "number": "9.2.4",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "初始化信号量",
+      "number": "9.2.4.1",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "2. 信号量P/V操作",
+      "number": "9.2.4.2",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "信号量申请(非阻塞方式)",
+      "number": "9.2.4.3",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "信号量销毁",
+      "number": "9.2.4.4",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "程序示例",
+      "number": "9.2.4.5",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "条件变量",
+      "number": "9.2.5",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "创建和销毁条件变量",
+      "number": "9.2.5.1",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "等待条件变量",
+      "number": "9.2.5.2",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "通知条件变量",
+      "number": "9.2.5.3",
+      "page": "chapter-09/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "总结",
+      "number": "9.3",
+      "page": "chapter-09/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "线程使用流程图",
+      "number": "9.3.1",
+      "page": "chapter-09/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "互斥量使用流程图",
+      "number": "9.3.2",
+      "page": "chapter-09/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "信号量使用流程图",
+      "number": "9.3.3",
+      "page": "chapter-09/section-03.md"
+    },
+    {
+      "level": 1,
+      "title": "I2C应用编程",
+      "number": "10",
+      "page": "chapter-10/index.md"
+    },
+    {
+      "level": 2,
+      "title": "I2C介绍",
+      "number": "10.1",
+      "page": "chapter-10/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "I2C硬件框架",
+      "number": "10.1.1",
+      "page": "chapter-10/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "I2C软件框架",
+      "number": "10.1.2",
+      "page": "chapter-10/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "我们讲什么",
+      "number": "10.1.3",
+      "page": "chapter-10/section-01.md"
+    },
+    {
+      "level": 4,
+      "title": "对于Linux",
+      "number": "10.1.3.1",
+      "page": "chapter-10/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "I2C协议",
+      "number": "10.2",
+      "page": "chapter-10/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "硬件连接",
+      "number": "10.2.1",
+      "page": "chapter-10/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "传输数据类比",
+      "number": "10.2.2",
+      "page": "chapter-10/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "IIC传输数据的格式",
+      "number": "10.2.3",
+      "page": "chapter-10/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "写操作",
+      "number": "10.2.3.1",
+      "page": "chapter-10/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "读操作",
+      "number": "10.2.3.2",
+      "page": "chapter-10/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "I2C信号",
+      "number": "10.2.3.3",
+      "page": "chapter-10/section-02.md"
+    },
+    {
+      "level": 4,
+      "title": "协议细节",
+      "number": "10.2.3.4",
+      "page": "chapter-10/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "SMBus协议",
+      "number": "10.3",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "SMBus是I2C协议的一个子集",
+      "number": "10.3.1",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "SMBus协议分析",
+      "number": "10.3.2",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "symbols(符号)",
+      "number": "10.3.2.1",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Quick Command",
+      "number": "10.3.2.2",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Receive Byte",
+      "number": "10.3.2.3",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Send Byte",
+      "number": "10.3.2.4",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Read Byte",
+      "number": "10.3.2.5",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Read Word",
+      "number": "10.3.2.6",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Write Byte",
+      "number": "10.3.2.7",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Write Word",
+      "number": "10.3.2.8",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Block Read",
+      "number": "10.3.2.9",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Block Write",
+      "number": "10.3.2.10",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "I2C Block Read",
+      "number": "10.3.2.11",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "I2C Block Write",
+      "number": "10.3.2.12",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "SMBus Block Write - Block Read Process Call",
+      "number": "10.3.2.13",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 4,
+      "title": "Packet Error Checking (PEC)",
+      "number": "10.3.2.14",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "SMBus和I2C的建议",
+      "number": "10.3.3",
+      "page": "chapter-10/section-03.md"
+    },
+    {
+      "level": 2,
+      "title": "I2C系统的重要结构体",
+      "number": "10.4",
+      "page": "chapter-10/section-04.md"
+    },
+    {
+      "level": 3,
+      "title": "重要结构体",
+      "number": "10.4.1",
+      "page": "chapter-10/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "怎么表示I2C Device",
+      "number": "10.4.1.1",
+      "page": "chapter-10/section-04.md"
+    },
+    {
+      "level": 4,
+      "title": "怎么表示要传输的数据",
+      "number": "10.4.1.2",
+      "page": "chapter-10/section-04.md"
+    },
+    {
+      "level": 3,
+      "title": "内核里怎么传输数据",
+      "number": "10.4.2",
+      "page": "chapter-10/section-04.md"
+    },
+    {
+      "level": 2,
+      "title": "无需编写驱动程序即可访问I2C设备",
+      "number": "10.5",
+      "page": "chapter-10/section-05.md"
+    },
+    {
+      "level": 3,
+      "title": "体验I2C-Tools",
+      "number": "10.5.1",
+      "page": "chapter-10/section-05.md"
+    },
+    {
+      "level": 4,
+      "title": "用法",
+      "number": "10.5.1.1",
+      "page": "chapter-10/section-05.md"
+    },
+    {
+      "level": 4,
+      "title": "使用I2C-Tools操作传感器BMP280",
+      "number": "10.5.1.2",
+      "page": "chapter-10/section-05.md"
+    },
+    {
+      "level": 3,
+      "title": "I2C-Tools访问I2C设备的2种方式",
+      "number": "10.5.2",
+      "page": "chapter-10/section-05.md"
+    },
+    {
+      "level": 3,
+      "title": "源码流程分析",
+      "number": "10.5.3",
+      "page": "chapter-10/section-05.md"
+    },
+    {
+      "level": 4,
+      "title": "使用I2C方式",
+      "number": "10.5.3.1",
+      "page": "chapter-10/section-05.md"
+    },
+    {
+      "level": 4,
+      "title": "使用SMBus方式",
+      "number": "10.5.3.2",
+      "page": "chapter-10/section-05.md"
+    },
+    {
+      "level": 2,
+      "title": "编写APP直接访问BMP280",
+      "number": "10.6",
+      "page": "chapter-10/section-06.md"
+    },
+    {
+      "level": 3,
+      "title": "BMP280访问方法",
+      "number": "10.6.1",
+      "page": "chapter-10/section-06.md"
+    },
+    {
+      "level": 4,
+      "title": "设备地址",
+      "number": "10.6.1.1",
+      "page": "chapter-10/section-06.md"
+    },
+    {
+      "level": 4,
+      "title": "读取压强和温度值",
+      "number": "10.6.1.2",
+      "page": "chapter-10/section-06.md"
+    },
+    {
+      "level": 4,
+      "title": "数值校准及转换",
+      "number": "10.6.1.3",
+      "page": "chapter-10/section-06.md"
+    },
+    {
+      "level": 3,
+      "title": "编译",
+      "number": "10.6.2",
+      "page": "chapter-10/section-06.md"
+    },
+    {
+      "level": 3,
+      "title": "上机测试",
+      "number": "10.6.3",
+      "page": "chapter-10/section-06.md"
+    },
+    {
+      "level": 1,
+      "title": "PWM与GPIO开发",
+      "number": "11",
+      "page": "chapter-11/index.md"
+    },
+    {
+      "level": 2,
+      "title": "GPIO控制",
+      "number": "11.1",
+      "page": "chapter-11/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "GPIO操作方法",
+      "number": "11.1.1",
+      "page": "chapter-11/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "GPIO SYSFS接口",
+      "number": "11.1.2",
+      "page": "chapter-11/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "PWM控制",
+      "number": "11.2",
+      "page": "chapter-11/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "PWM硬件知识",
+      "number": "11.2.1",
+      "page": "chapter-11/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "Linux下PWM操作接口",
+      "number": "11.2.2",
+      "page": "chapter-11/section-02.md"
+    },
+    {
+      "level": 1,
+      "title": "Linux驱动基础知识",
+      "number": "12",
+      "page": "chapter-12/index.md"
+    },
+    {
+      "level": 2,
+      "title": "本地编译内核",
+      "number": "12.1",
+      "page": "chapter-12/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "获取内核源码",
+      "number": "12.1.1",
+      "page": "chapter-12/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "安装依赖",
+      "number": "12.1.2",
+      "page": "chapter-12/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "编译内核",
+      "number": "12.1.3",
+      "page": "chapter-12/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "设备驱动基础",
+      "number": "12.2",
+      "page": "chapter-12/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "Linux设备模型",
+      "number": "12.2.1",
+      "page": "chapter-12/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "简单字符设备驱动程序",
+      "number": "12.2.2",
+      "page": "chapter-12/section-02.md"
+    },
+    {
+      "level": 1,
+      "title": "Linux SPI开发",
+      "number": "13",
+      "page": "chapter-13/index.md"
+    },
+    {
+      "level": 2,
+      "title": "SPI协议介绍",
+      "number": "13.1",
+      "page": "chapter-13/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "用户态SPI编程接口",
+      "number": "13.2",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "用法",
+      "number": "13.2.1",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "显示属性",
+      "number": "13.2.2",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "读数据",
+      "number": "13.2.3",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "先写再读数据",
+      "number": "13.2.4",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "同时读写",
+      "number": "13.2.5",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "SPI的物理拓扑结构",
+      "number": "13.2.6",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "SPI的数据交互",
+      "number": "13.2.7",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "SPI的数据传输模式",
+      "number": "13.2.8",
+      "page": "chapter-13/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "Linux SPI设备的两种访问方法",
+      "number": "13.3",
+      "page": "chapter-13/section-03.md"
+    },
+    {
+      "level": 2,
+      "title": "Linux SPI设备驱动",
+      "number": "13.4",
+      "page": "chapter-13/section-04.md"
+    },
+    {
+      "level": 2,
+      "title": "SPI接口传感器编程示例",
+      "number": "13.5",
+      "page": "chapter-13/section-05.md"
+    },
+    {
+      "level": 3,
+      "title": "连线",
+      "number": "13.5.1",
+      "page": "chapter-13/section-05.md"
+    },
+    {
+      "level": 3,
+      "title": "代码",
+      "number": "13.5.2",
+      "page": "chapter-13/section-05.md"
+    },
+    {
+      "level": 3,
+      "title": "编译",
+      "number": "13.5.3",
+      "page": "chapter-13/section-05.md"
+    },
+    {
+      "level": 3,
+      "title": "修改设备树",
+      "number": "13.5.4",
+      "page": "chapter-13/section-05.md"
+    },
+    {
+      "level": 3,
+      "title": "测试",
+      "number": "13.5.5",
+      "page": "chapter-13/section-05.md"
+    },
+    {
+      "level": 1,
+      "title": "ROS2入门与应用",
+      "number": "14",
+      "page": "chapter-14/index.md"
+    },
+    {
+      "level": 2,
+      "title": "ROS2简介",
+      "number": "14.1",
+      "page": "chapter-14/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "ROS是什么?",
+      "number": "14.1.1",
+      "page": "chapter-14/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "ROS2架构概述",
+      "number": "14.1.2",
+      "page": "chapter-14/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "ROS2开发环境搭建（Humble版本）",
+      "number": "14.2",
+      "page": "chapter-14/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "安装ROS2",
+      "number": "14.2.1",
+      "page": "chapter-14/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "创建ROS2工作空间",
+      "number": "14.2.2",
+      "page": "chapter-14/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "常用指令介绍",
+      "number": "14.2.3",
+      "page": "chapter-14/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "ROS2节点与通信",
+      "number": "14.3",
+      "page": "chapter-14/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "节点的概念与创建",
+      "number": "14.3.1",
+      "page": "chapter-14/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "ROS2话题通信",
+      "number": "14.3.2",
+      "page": "chapter-14/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "ROS2服务通信",
+      "number": "14.3.3",
+      "page": "chapter-14/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "ROS2参数通信",
+      "number": "14.3.4",
+      "page": "chapter-14/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "ROS2动作通信",
+      "number": "14.3.5",
+      "page": "chapter-14/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "使用launch文件",
+      "number": "14.3.6",
+      "page": "chapter-14/section-03.md"
+    },
+    {
+      "level": 2,
+      "title": "基于ROS2的机器人控制",
+      "number": "14.4",
+      "page": "chapter-14/section-04.md"
+    },
+    {
+      "level": 3,
+      "title": "读取USB摄像头数据",
+      "number": "14.4.1",
+      "page": "chapter-14/section-04.md"
+    },
+    {
+      "level": 3,
+      "title": "读取激光雷达数据",
+      "number": "14.4.2",
+      "page": "chapter-14/section-04.md"
+    },
+    {
+      "level": 3,
+      "title": "使用ROS 2控制电机",
+      "number": "14.4.3",
+      "page": "chapter-14/section-04.md"
+    },
+    {
+      "level": 1,
+      "title": "外围调试实战",
+      "number": "15",
+      "page": "chapter-15/index.md"
+    },
+    {
+      "level": 2,
+      "title": "超声波调试",
+      "number": "15.1",
+      "page": "chapter-15/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "超声波工作原理",
+      "number": "15.1.1",
+      "page": "chapter-15/section-01.md"
+    },
+    {
+      "level": 3,
+      "title": "超声波测距实现",
+      "number": "15.1.2",
+      "page": "chapter-15/section-01.md"
+    },
+    {
+      "level": 2,
+      "title": "电机控制",
+      "number": "15.2",
+      "page": "chapter-15/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "电机驱动原理",
+      "number": "15.2.1",
+      "page": "chapter-15/section-02.md"
+    },
+    {
+      "level": 3,
+      "title": "驱动电机旋转",
+      "number": "15.2.2",
+      "page": "chapter-15/section-02.md"
+    },
+    {
+      "level": 2,
+      "title": "摄像头模块调试",
+      "number": "15.3",
+      "page": "chapter-15/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "UVC模块介绍",
+      "number": "15.3.1",
+      "page": "chapter-15/section-03.md"
+    },
+    {
+      "level": 3,
+      "title": "使用UVC驱动进行图像采集",
+      "number": "15.3.2",
+      "page": "chapter-15/section-03.md"
+    },
+    {
+      "level": 2,
+      "title": "综合实战",
+      "number": "15.4",
+      "page": "chapter-15/section-04.md"
+    }
+  ],
+  "images": [
+    {
+      "source": "word/media/image1.png",
+      "path": "static/img/manual/image1.png",
+      "bytes": 11860,
+      "sha256": "ff7e58497ea5a67e989a9f298d5f46f0db65c17f81a3bd90b03220f6cfc6bb15",
+      "width": 290,
+      "height": 88,
+      "references": 0
+    },
+    {
+      "source": "word/media/image10.png",
+      "path": "static/img/manual/image10.png",
+      "bytes": 447745,
+      "sha256": "3aa903cc0d96beacb66380c819ef55301cbd0efd70ae64a0d4f4e0b8f7d6837b",
+      "width": 1188,
+      "height": 822,
+      "references": 1
+    },
+    {
+      "source": "word/media/image100.png",
+      "path": "static/img/manual/image100.png",
+      "bytes": 20020,
+      "sha256": "589f52a0e8c12e1ee81f4c9549a6ccd532923cc4b5acaea552dd169a3c877de5",
+      "width": 667,
+      "height": 178,
+      "references": 1
+    },
+    {
+      "source": "word/media/image101.png",
+      "path": "static/img/manual/image101.png",
+      "bytes": 23709,
+      "sha256": "dfe2677e10a0c74d3b5bb92ce0f6ca333eb0f77556ae0732fbec409c44b158a6",
+      "width": 945,
+      "height": 177,
+      "references": 1
+    },
+    {
+      "source": "word/media/image102.png",
+      "path": "static/img/manual/image102.png",
+      "bytes": 16639,
+      "sha256": "dabbe97c46b54e4aac80bb20fa669a47477f63818866b1819548cb3916c1a2a2",
+      "width": 940,
+      "height": 103,
+      "references": 1
+    },
+    {
+      "source": "word/media/image103.png",
+      "path": "static/img/manual/image103.png",
+      "bytes": 19693,
+      "sha256": "a31350ecb43ce63cdcfd133294edcca885b6d7211a9c2b3ba32322ad5c38761e",
+      "width": 630,
+      "height": 180,
+      "references": 1
+    },
+    {
+      "source": "word/media/image104.png",
+      "path": "static/img/manual/image104.png",
+      "bytes": 26709,
+      "sha256": "d88a7bfc2a92b944731d45fd9441bb3c157ce2a12323d2aba0200b4f2dace234",
+      "width": 966,
+      "height": 256,
+      "references": 1
+    },
+    {
+      "source": "word/media/image105.png",
+      "path": "static/img/manual/image105.png",
+      "bytes": 23551,
+      "sha256": "302460ca0fd6e64a815084803e1890cfb945b8236c7eb7ac30b180c98b1a27c5",
+      "width": 970,
+      "height": 185,
+      "references": 1
+    },
+    {
+      "source": "word/media/image106.png",
+      "path": "static/img/manual/image106.png",
+      "bytes": 27960,
+      "sha256": "c146457afee56720c39e7501889dbd1f0e692d8725c7c83266236b97c21a8172",
+      "width": 794,
+      "height": 182,
+      "references": 1
+    },
+    {
+      "source": "word/media/image107.png",
+      "path": "static/img/manual/image107.png",
+      "bytes": 22023,
+      "sha256": "39b590bb68b8deb7d911f562134d2f51455bb320c88f480beca33a4cc8a443f9",
+      "width": 793,
+      "height": 123,
+      "references": 1
+    },
+    {
+      "source": "word/media/image108.png",
+      "path": "static/img/manual/image108.png",
+      "bytes": 41143,
+      "sha256": "d30f3d7c2f0ad8c6b977a02eb44bdf11d45fa4644d12adaa0821e8b32615259e",
+      "width": 995,
+      "height": 332,
+      "references": 1
+    },
+    {
+      "source": "word/media/image109.png",
+      "path": "static/img/manual/image109.png",
+      "bytes": 29596,
+      "sha256": "001f8fd54a685dfbf7042347cece7e9e874b9aa38a9946f21f7fb4ae7730d04b",
+      "width": 930,
+      "height": 213,
+      "references": 1
+    },
+    {
+      "source": "word/media/image11.png",
+      "path": "static/img/manual/image11.png",
+      "bytes": 976664,
+      "sha256": "886203af6afb0bb214882e5bd1dd3a8221d8fea8248519339441b0fec6678f49",
+      "width": 915,
+      "height": 778,
+      "references": 1
+    },
+    {
+      "source": "word/media/image110.png",
+      "path": "static/img/manual/image110.png",
+      "bytes": 51056,
+      "sha256": "ee0ba06a4d864774715bfe4e957128bf8280b39e1d9f8144050dd3376964abfa",
+      "width": 692,
+      "height": 592,
+      "references": 1
+    },
+    {
+      "source": "word/media/image111.png",
+      "path": "static/img/manual/image111.png",
+      "bytes": 53793,
+      "sha256": "ec86253644e23cb463b0acd56b453a42aad2a9933a30a3b14795339939892c50",
+      "width": 677,
+      "height": 503,
+      "references": 1
+    },
+    {
+      "source": "word/media/image112.png",
+      "path": "static/img/manual/image112.png",
+      "bytes": 52485,
+      "sha256": "fdaff7eda361d9774fcc01bd34138fb4ed4255b8c6c5dbf83a0f571f43a89de9",
+      "width": 699,
+      "height": 418,
+      "references": 1
+    },
+    {
+      "source": "word/media/image113.png",
+      "path": "static/img/manual/image113.png",
+      "bytes": 23358,
+      "sha256": "311bbc11670e3dbbf64014ab961b3d0f631e359863a8d54145115e4f823ea330",
+      "width": 572,
+      "height": 266,
+      "references": 1
+    },
+    {
+      "source": "word/media/image114.png",
+      "path": "static/img/manual/image114.png",
+      "bytes": 5330,
+      "sha256": "aba92a5418442bbec88a1a17ae1a4f77292f563b3c10a95b9719c3c9a8555bac",
+      "width": 714,
+      "height": 29,
+      "references": 1
+    },
+    {
+      "source": "word/media/image115.png",
+      "path": "static/img/manual/image115.png",
+      "bytes": 77629,
+      "sha256": "993845807ac3185b0e4cac6f20013d865815835da0fc4a218f15ac84db13e696",
+      "width": 1249,
+      "height": 400,
+      "references": 1
+    },
+    {
+      "source": "word/media/image116.png",
+      "path": "static/img/manual/image116.png",
+      "bytes": 37047,
+      "sha256": "e87db449bdd1892c91e5cd804f8134b6114ab2286ef3ede72ebffa001db6e383",
+      "width": 836,
+      "height": 696,
+      "references": 1
+    },
+    {
+      "source": "word/media/image117.png",
+      "path": "static/img/manual/image117.png",
+      "bytes": 233745,
+      "sha256": "fdbb6728a382c511a351b3b83892ea29786964e9660c4da3da22ead3b2e2a4e7",
+      "width": 836,
+      "height": 1137,
+      "references": 1
+    },
+    {
+      "source": "word/media/image118.png",
+      "path": "static/img/manual/image118.png",
+      "bytes": 188666,
+      "sha256": "ebe801a4f750f00fea74c4bebd32681769c0c5bba7fa2fab53861559f623317c",
+      "width": 1353,
+      "height": 304,
+      "references": 1
+    },
+    {
+      "source": "word/media/image119.png",
+      "path": "static/img/manual/image119.png",
+      "bytes": 97142,
+      "sha256": "6ef81dc3c87378d680b67f917339c4ad6a6288ed7f687d382b2adf980964092c",
+      "width": 1243,
+      "height": 690,
+      "references": 1
+    },
+    {
+      "source": "word/media/image12.png",
+      "path": "static/img/manual/image12.png",
+      "bytes": 10792,
+      "sha256": "a490dd717631267e96bf159685241bb8c82efa5bedc9a06eebba0614f55279ef",
+      "width": 514,
+      "height": 206,
+      "references": 1
+    },
+    {
+      "source": "word/media/image120.png",
+      "path": "static/img/manual/image120.png",
+      "bytes": 19711,
+      "sha256": "0b379f78828fead72bce2afb472d5554d08d309d4e2879c5d58c422786e1cf4f",
+      "width": 1084,
+      "height": 582,
+      "references": 1
+    },
+    {
+      "source": "word/media/image121.png",
+      "path": "static/img/manual/image121.png",
+      "bytes": 99649,
+      "sha256": "c43fc46f07776d8a415f535043d183df116a1cdff25e79a75a1614d33651b13f",
+      "width": 2135,
+      "height": 1217,
+      "references": 1
+    },
+    {
+      "source": "word/media/image122.png",
+      "path": "static/img/manual/image122.png",
+      "bytes": 40228,
+      "sha256": "92985339afb5ffa6342ff0956b15495fa7bb14bb63c3d52aa27c29cbdbdfc88b",
+      "width": 1731,
+      "height": 178,
+      "references": 1
+    },
+    {
+      "source": "word/media/image123.png",
+      "path": "static/img/manual/image123.png",
+      "bytes": 34167,
+      "sha256": "60a099c346a835d298e1be18e869b18f27866f6c2e3fa1ed1827159332a0b931",
+      "width": 1159,
+      "height": 345,
+      "references": 1
+    },
+    {
+      "source": "word/media/image124.png",
+      "path": "static/img/manual/image124.png",
+      "bytes": 71417,
+      "sha256": "c74717e4e753868bde9509606d3260c4ab25d24f20e32c7fd43385d95df4f46e",
+      "width": 2054,
+      "height": 382,
+      "references": 1
+    },
+    {
+      "source": "word/media/image125.png",
+      "path": "static/img/manual/image125.png",
+      "bytes": 78818,
+      "sha256": "e5107518b3f528d8deeb498f28a9fa5fdfeb3a78006f678718268aa4d38aec9d",
+      "width": 1112,
+      "height": 627,
+      "references": 1
+    },
+    {
+      "source": "word/media/image126.png",
+      "path": "static/img/manual/image126.png",
+      "bytes": 158053,
+      "sha256": "69c73ef8e3dddb7942dfa231e8c815acb0a25b8b225ea80e210e96200d290ccf",
+      "width": 1994,
+      "height": 1058,
+      "references": 1
+    },
+    {
+      "source": "word/media/image127.png",
+      "path": "static/img/manual/image127.png",
+      "bytes": 52335,
+      "sha256": "2cfca6e01953fc6ea3874d0cb3764eb873c86ea78050f91c4a61674cf7ea1e98",
+      "width": 1316,
+      "height": 371,
+      "references": 1
+    },
+    {
+      "source": "word/media/image128.png",
+      "path": "static/img/manual/image128.png",
+      "bytes": 143091,
+      "sha256": "0b7ca47d2dbba497363f867593989c9d4f0e6a5fd2a06013a6743afda59a558d",
+      "width": 1964,
+      "height": 837,
+      "references": 1
+    },
+    {
+      "source": "word/media/image129.png",
+      "path": "static/img/manual/image129.png",
+      "bytes": 91961,
+      "sha256": "5cf24093c6c1b3183155767705b3720cb2a9c591f01fd0ebf740a9e934ff6c1b",
+      "width": 1407,
+      "height": 810,
+      "references": 1
+    },
+    {
+      "source": "word/media/image13.png",
+      "path": "static/img/manual/image13.png",
+      "bytes": 128792,
+      "sha256": "3417aa314220404aef63475def0b112edb0054fe3509d23bed37027c1025080b",
+      "width": 1487,
+      "height": 744,
+      "references": 1
+    },
+    {
+      "source": "word/media/image130.png",
+      "path": "static/img/manual/image130.png",
+      "bytes": 61046,
+      "sha256": "925895911e4e27a2bb9473feec9f0e2d42c544528d495f95aad54442388a5319",
+      "width": 1740,
+      "height": 470,
+      "references": 1
+    },
+    {
+      "source": "word/media/image131.png",
+      "path": "static/img/manual/image131.png",
+      "bytes": 41120,
+      "sha256": "3efc459d1a2e9c353d234121cc770bf6d90030cd5bc208175e8d906b2b945b2a",
+      "width": 791,
+      "height": 510,
+      "references": 1
+    },
+    {
+      "source": "word/media/image132.png",
+      "path": "static/img/manual/image132.png",
+      "bytes": 16569,
+      "sha256": "a932490833e08cb1f3210cdad7741150a3c1b50f896b255bdf9546a288e91bb8",
+      "width": 1362,
+      "height": 315,
+      "references": 1
+    },
+    {
+      "source": "word/media/image133.png",
+      "path": "static/img/manual/image133.png",
+      "bytes": 19906,
+      "sha256": "6b0df88a9e42c5e4cad798c740cc61b3c6b94c97500d3bbeb983133206a8bc31",
+      "width": 752,
+      "height": 205,
+      "references": 1
+    },
+    {
+      "source": "word/media/image134.png",
+      "path": "static/img/manual/image134.png",
+      "bytes": 106530,
+      "sha256": "aab5d2165c2413fca9501c24aa88b519d5730762593704752d279d78039f9cb7",
+      "width": 1540,
+      "height": 851,
+      "references": 1
+    },
+    {
+      "source": "word/media/image135.png",
+      "path": "static/img/manual/image135.png",
+      "bytes": 46845,
+      "sha256": "08f12f4c034f3c749037b7f06b6a75a222c1c65fe990617c61519f84c08c1e0e",
+      "width": 1022,
+      "height": 368,
+      "references": 1
+    },
+    {
+      "source": "word/media/image136.png",
+      "path": "static/img/manual/image136.png",
+      "bytes": 28654,
+      "sha256": "ace9b86b2c388c5cfe87cb6539a36cbefe119dcadd8f48252e8e1b63b4bf704c",
+      "width": 731,
+      "height": 199,
+      "references": 1
+    },
+    {
+      "source": "word/media/image137.png",
+      "path": "static/img/manual/image137.png",
+      "bytes": 47782,
+      "sha256": "e173d63732865474968587fb4e84577872220483df6918a3604fe198dc4f34d7",
+      "width": 931,
+      "height": 272,
+      "references": 1
+    },
+    {
+      "source": "word/media/image138.png",
+      "path": "static/img/manual/image138.png",
+      "bytes": 63571,
+      "sha256": "867546f7e609388fd0c2bd357beeedf100c91e1a0793ce796fd624661d2fcb31",
+      "width": 770,
+      "height": 568,
+      "references": 1
+    },
+    {
+      "source": "word/media/image139.png",
+      "path": "static/img/manual/image139.png",
+      "bytes": 59743,
+      "sha256": "178fa7b86daeae0372376b78aa23a0303382ed67b0102436eeb261576dc3a779",
+      "width": 637,
+      "height": 649,
+      "references": 1
+    },
+    {
+      "source": "word/media/image14.png",
+      "path": "static/img/manual/image14.png",
+      "bytes": 176183,
+      "sha256": "e2984ff464fc6d59c367e32a3ea76124ec5a7f4df4e07b404278142657330beb",
+      "width": 1544,
+      "height": 1095,
+      "references": 1
+    },
+    {
+      "source": "word/media/image140.png",
+      "path": "static/img/manual/image140.png",
+      "bytes": 69378,
+      "sha256": "35e5e5c40b3bc95455a115740d3395946e6d4cbceb7733543b00b4423072a20d",
+      "width": 615,
+      "height": 661,
+      "references": 1
+    },
+    {
+      "source": "word/media/image141.png",
+      "path": "static/img/manual/image141.png",
+      "bytes": 86229,
+      "sha256": "cad7ff09d5407f4322956f519fb408c61a69bcd91e85d279b8b25d35dd3d7e7f",
+      "width": 763,
+      "height": 690,
+      "references": 1
+    },
+    {
+      "source": "word/media/image142.png",
+      "path": "static/img/manual/image142.png",
+      "bytes": 82412,
+      "sha256": "d69e8c5565b1436bf1321289d3afe8181d135702f83aab5bfa3576ac621ab699",
+      "width": 565,
+      "height": 699,
+      "references": 1
+    },
+    {
+      "source": "word/media/image143.png",
+      "path": "static/img/manual/image143.png",
+      "bytes": 26847,
+      "sha256": "14f42898ba88a845fa0741820b9c3cccffc575a39847b0c8a37c0bb628bb9043",
+      "width": 577,
+      "height": 154,
+      "references": 1
+    },
+    {
+      "source": "word/media/image144.png",
+      "path": "static/img/manual/image144.png",
+      "bytes": 61457,
+      "sha256": "a15d4591e5bb00cb0680dfe8ec6f37acf43f3f5387705c37baa777fdce0a8490",
+      "width": 1255,
+      "height": 752,
+      "references": 1
+    },
+    {
+      "source": "word/media/image145.png",
+      "path": "static/img/manual/image145.png",
+      "bytes": 62909,
+      "sha256": "88b484b8fd4ae9b22db1b6d75d85ac540a3a9a07ca6a0124c63b579d46728488",
+      "width": 1254,
+      "height": 751,
+      "references": 1
+    },
+    {
+      "source": "word/media/image146.png",
+      "path": "static/img/manual/image146.png",
+      "bytes": 29440,
+      "sha256": "b03e324a9685ce19f2212d1c31c1c8dc3d1355a70461d6a6cf0554cbeea6df49",
+      "width": 728,
+      "height": 478,
+      "references": 1
+    },
+    {
+      "source": "word/media/image147.png",
+      "path": "static/img/manual/image147.png",
+      "bytes": 637863,
+      "sha256": "1934a5b74c7d1cbf998191f62fe2f3bee9cab8d281598f1fa721b4172bae10c0",
+      "width": 1235,
+      "height": 705,
+      "references": 1
+    },
+    {
+      "source": "word/media/image148.png",
+      "path": "static/img/manual/image148.png",
+      "bytes": 29873,
+      "sha256": "5e0876a01178255ff6a3c37bc86f9c9ce92964f8e087c6047a3c4846283cfe53",
+      "width": 851,
+      "height": 203,
+      "references": 1
+    },
+    {
+      "source": "word/media/image149.png",
+      "path": "static/img/manual/image149.png",
+      "bytes": 317020,
+      "sha256": "d423c2af9e7524ef01133e2a98252fa9b654d86df4b6949e318f6a61a5e2ba6f",
+      "width": 1314,
+      "height": 566,
+      "references": 1
+    },
+    {
+      "source": "word/media/image15.png",
+      "path": "static/img/manual/image15.png",
+      "bytes": 442168,
+      "sha256": "258bf34053cb49a566ea02df76c4d04d8070607b58b83672871477b24e873183",
+      "width": 1216,
+      "height": 684,
+      "references": 1
+    },
+    {
+      "source": "word/media/image150.png",
+      "path": "static/img/manual/image150.png",
+      "bytes": 56184,
+      "sha256": "4a29a5db5e97dcc8e1c81eb09fa09226cfff7ac6f341ec18eec309743cb4afea",
+      "width": 810,
+      "height": 634,
+      "references": 1
+    },
+    {
+      "source": "word/media/image151.png",
+      "path": "static/img/manual/image151.png",
+      "bytes": 38072,
+      "sha256": "94ce8a767e4fe25c5aacff119cab7849c57bc16242fe518896c90a789dd91841",
+      "width": 1063,
+      "height": 522,
+      "references": 1
+    },
+    {
+      "source": "word/media/image152.png",
+      "path": "static/img/manual/image152.png",
+      "bytes": 28910,
+      "sha256": "0ff1e7e42001d5f9a9517ede752bfa44c8653e3d1fdcb970dea7efa0fe75d662",
+      "width": 2250,
+      "height": 228,
+      "references": 1
+    },
+    {
+      "source": "word/media/image153.png",
+      "path": "static/img/manual/image153.png",
+      "bytes": 15478,
+      "sha256": "d7222edd90c67aba569efd4509bafaf9a341d2e8e4ce3f8d5ac7849976345927",
+      "width": 1471,
+      "height": 102,
+      "references": 1
+    },
+    {
+      "source": "word/media/image154.png",
+      "path": "static/img/manual/image154.png",
+      "bytes": 3013,
+      "sha256": "e7f7b5193c144bf8b501eeb074665aa698eafc9bd6e1a820b7beb3b857fee333",
+      "width": 425,
+      "height": 323,
+      "references": 1
+    },
+    {
+      "source": "word/media/image155.png",
+      "path": "static/img/manual/image155.png",
+      "bytes": 20455,
+      "sha256": "791344c049984fa4e7fe7e84b2e90780c929925d57592b7c6a504105a3a99403",
+      "width": 1095,
+      "height": 376,
+      "references": 1
+    },
+    {
+      "source": "word/media/image156.png",
+      "path": "static/img/manual/image156.png",
+      "bytes": 13747,
+      "sha256": "50a6114a8651238b8e84b848de96715ffc5454567ff438f7734b7cd35b0d06a2",
+      "width": 1120,
+      "height": 250,
+      "references": 1
+    },
+    {
+      "source": "word/media/image157.png",
+      "path": "static/img/manual/image157.png",
+      "bytes": 96374,
+      "sha256": "1a74797d42305f9688a8c8a82effab97d736e870238e330f3ccac6270eab8319",
+      "width": 676,
+      "height": 802,
+      "references": 1
+    },
+    {
+      "source": "word/media/image158.png",
+      "path": "static/img/manual/image158.png",
+      "bytes": 30510,
+      "sha256": "d911e85745af666187e11cd8c32e971e66ec35a5b388db976c2fdf7e84ce3942",
+      "width": 1276,
+      "height": 162,
+      "references": 1
+    },
+    {
+      "source": "word/media/image159.png",
+      "path": "static/img/manual/image159.png",
+      "bytes": 92132,
+      "sha256": "5036cc54fe81d28bda30c281bc8f00dbb265e9c0c21f6846beb2c2e4fe33c753",
+      "width": 1511,
+      "height": 373,
+      "references": 1
+    },
+    {
+      "source": "word/media/image16.png",
+      "path": "static/img/manual/image16.png",
+      "bytes": 470741,
+      "sha256": "98d6bd11f391a594211e4b92cd151c26b1b49613dcd9635601e69720564c2280",
+      "width": 1280,
+      "height": 720,
+      "references": 1
+    },
+    {
+      "source": "word/media/image160.png",
+      "path": "static/img/manual/image160.png",
+      "bytes": 20792,
+      "sha256": "a0033513ba7bf76a581065e4e2d0b9f26a7751149809354c9bd3fb194238e370",
+      "width": 1107,
+      "height": 335,
+      "references": 1
+    },
+    {
+      "source": "word/media/image161.png",
+      "path": "static/img/manual/image161.png",
+      "bytes": 59163,
+      "sha256": "1d9faa8a48ec259fc4594f3b674b5463c2e6dffda671f2361b205ac55b995708",
+      "width": 1199,
+      "height": 245,
+      "references": 1
+    },
+    {
+      "source": "word/media/image162.png",
+      "path": "static/img/manual/image162.png",
+      "bytes": 17832,
+      "sha256": "b89f58e2e70b19b001232af80fc39aeb3501d2dc997e7e0a0601dc3d04c9fcaf",
+      "width": 1520,
+      "height": 186,
+      "references": 1
+    },
+    {
+      "source": "word/media/image163.png",
+      "path": "static/img/manual/image163.png",
+      "bytes": 25535,
+      "sha256": "b4b4367d7c3ec789ba1ce5998db1bb9c940415a4db11ca45e5a78015045b5ba1",
+      "width": 722,
+      "height": 274,
+      "references": 1
+    },
+    {
+      "source": "word/media/image164.png",
+      "path": "static/img/manual/image164.png",
+      "bytes": 55250,
+      "sha256": "b7940118f44d535d9a27285d0dc8f5ad8dadcbf5cb832719c6138abae64910e6",
+      "width": 1421,
+      "height": 663,
+      "references": 1
+    },
+    {
+      "source": "word/media/image165.png",
+      "path": "static/img/manual/image165.png",
+      "bytes": 104283,
+      "sha256": "83b92731ea9cff5ced831efec0a276e3f039594e444baaff420b05b1339de46d",
+      "width": 1524,
+      "height": 426,
+      "references": 1
+    },
+    {
+      "source": "word/media/image166.png",
+      "path": "static/img/manual/image166.png",
+      "bytes": 105815,
+      "sha256": "fa72637bc50942bf2a4baad5253174ca455d21de600e54de924977582e61c1b9",
+      "width": 1595,
+      "height": 370,
+      "references": 1
+    },
+    {
+      "source": "word/media/image167.png",
+      "path": "static/img/manual/image167.png",
+      "bytes": 50379,
+      "sha256": "68b0ea349dc1b4d324e12aa0febf141e5cb9a227c196cd52511ec4a8b2800d21",
+      "width": 704,
+      "height": 624,
+      "references": 1
+    },
+    {
+      "source": "word/media/image168.png",
+      "path": "static/img/manual/image168.png",
+      "bytes": 293685,
+      "sha256": "1791c4d65bbf502419afde8f8e67c46b514cf67b0dfd2583f661c27b37e92123",
+      "width": 1488,
+      "height": 190,
+      "references": 1
+    },
+    {
+      "source": "word/media/image169.png",
+      "path": "static/img/manual/image169.png",
+      "bytes": 59447,
+      "sha256": "dd10a08234e45a8926434e7f8f8b17087727bb445be4d36f09344f021d4a994a",
+      "width": 1196,
+      "height": 749,
+      "references": 1
+    },
+    {
+      "source": "word/media/image17.png",
+      "path": "static/img/manual/image17.png",
+      "bytes": 481855,
+      "sha256": "73335f060f81da778c088883a6c2e4310d162ef37e83848ffce36380a401b9db",
+      "width": 1280,
+      "height": 720,
+      "references": 1
+    },
+    {
+      "source": "word/media/image170.png",
+      "path": "static/img/manual/image170.png",
+      "bytes": 53373,
+      "sha256": "863d50572e41a2f12b0c1634b66861518666e71662ffb1de64c3d7a556e06afe",
+      "width": 1274,
+      "height": 445,
+      "references": 1
+    },
+    {
+      "source": "word/media/image171.png",
+      "path": "static/img/manual/image171.png",
+      "bytes": 59929,
+      "sha256": "69195997104df90b2c3a8d3d351c480b888aefd39beaea12a0aabe3b88482bd5",
+      "width": 811,
+      "height": 740,
+      "references": 1
+    },
+    {
+      "source": "word/media/image172.png",
+      "path": "static/img/manual/image172.png",
+      "bytes": 51332,
+      "sha256": "f88b678ab7a88a1726a50e90de86dd81a4d21770f6012f4224346e94f82289f9",
+      "width": 1378,
+      "height": 250,
+      "references": 1
+    },
+    {
+      "source": "word/media/image173.png",
+      "path": "static/img/manual/image173.png",
+      "bytes": 24456,
+      "sha256": "abc4e443f4e15125762b7bc0019ca3183a2f450444c0d919fb99b4732c526cab",
+      "width": 1120,
+      "height": 539,
+      "references": 1
+    },
+    {
+      "source": "word/media/image174.png",
+      "path": "static/img/manual/image174.png",
+      "bytes": 43085,
+      "sha256": "af3883cdb3a23174d686ff1a294daade795d25a0b02fe108e6aa03358a91ce88",
+      "width": 1278,
+      "height": 223,
+      "references": 1
+    },
+    {
+      "source": "word/media/image175.png",
+      "path": "static/img/manual/image175.png",
+      "bytes": 171006,
+      "sha256": "e9ea0ec95ecb32eb18e79476ea99388d70d1ba5f7b2c4307e80d6f3aec83ec13",
+      "width": 2165,
+      "height": 777,
+      "references": 1
+    },
+    {
+      "source": "word/media/image176.png",
+      "path": "static/img/manual/image176.png",
+      "bytes": 46399,
+      "sha256": "5425398c1648c0081e1d045a8c5c77467bf765e17bd1eb254612af85b87d510d",
+      "width": 2157,
+      "height": 222,
+      "references": 1
+    },
+    {
+      "source": "word/media/image177.png",
+      "path": "static/img/manual/image177.png",
+      "bytes": 52767,
+      "sha256": "1802b953ddb2e3f26a75c80d6d954b3f9e2336d7cc8e365f61ef0391ea66645a",
+      "width": 2155,
+      "height": 224,
+      "references": 1
+    },
+    {
+      "source": "word/media/image178.png",
+      "path": "static/img/manual/image178.png",
+      "bytes": 20723,
+      "sha256": "5d99fa22d43cb06dc740903b3b4b33eec43cc0c0dd71afb89be420810aaba606",
+      "width": 887,
+      "height": 317,
+      "references": 1
+    },
+    {
+      "source": "word/media/image179.png",
+      "path": "static/img/manual/image179.png",
+      "bytes": 117681,
+      "sha256": "38d26466964ad13ba79e2e6b4a471718f128c336d134f68b88a25fd60e18ab69",
+      "width": 429,
+      "height": 336,
+      "references": 1
+    },
+    {
+      "source": "word/media/image18.png",
+      "path": "static/img/manual/image18.png",
+      "bytes": 490347,
+      "sha256": "8673333a34c6edabc42d4b4c076c6f5632d6a2b2ebbcd52994e2f427924814eb",
+      "width": 1280,
+      "height": 720,
+      "references": 1
+    },
+    {
+      "source": "word/media/image180.png",
+      "path": "static/img/manual/image180.png",
+      "bytes": 44367,
+      "sha256": "a72916b95ecba36f9ae0b97c648f010ac3793f20b75a0c12f671562a8ac93dcf",
+      "width": 2243,
+      "height": 230,
+      "references": 1
+    },
+    {
+      "source": "word/media/image181.png",
+      "path": "static/img/manual/image181.png",
+      "bytes": 105186,
+      "sha256": "8155aeabffb10e3be56e5249c440ac1c4cf5458a062659ffd820d1f39f947861",
+      "width": 1133,
+      "height": 734,
+      "references": 1
+    },
+    {
+      "source": "word/media/image182.png",
+      "path": "static/img/manual/image182.png",
+      "bytes": 79537,
+      "sha256": "411175ae32ee7a21bdf405d83c67fb60dbce90a2c9429486a660a4735e8e6c07",
+      "width": 1133,
+      "height": 734,
+      "references": 1
+    },
+    {
+      "source": "word/media/image183.png",
+      "path": "static/img/manual/image183.png",
+      "bytes": 65818,
+      "sha256": "8c270aa570a77d46b92128ff07cc6f36cd35c71c99448baf9161a8f1d35098d3",
+      "width": 450,
+      "height": 807,
+      "references": 1
+    },
+    {
+      "source": "word/media/image184.png",
+      "path": "static/img/manual/image184.png",
+      "bytes": 95278,
+      "sha256": "c7bd6437d65c6e066938e21cc1aa63b0151b112df8c75a4ed404a0d41086d89c",
+      "width": 830,
+      "height": 479,
+      "references": 1
+    },
+    {
+      "source": "word/media/image185.png",
+      "path": "static/img/manual/image185.png",
+      "bytes": 345516,
+      "sha256": "c4232b0e2b44ab3bcdeb31251d1fe8963c546c5f634739daee004e20437575d9",
+      "width": 1201,
+      "height": 484,
+      "references": 1
+    },
+    {
+      "source": "word/media/image186.png",
+      "path": "static/img/manual/image186.png",
+      "bytes": 109302,
+      "sha256": "dbbb5979da1ff0c08c2e80670611907171922dbc9f7b5ef32be0076f88233e03",
+      "width": 645,
+      "height": 502,
+      "references": 1
+    },
+    {
+      "source": "word/media/image187.png",
+      "path": "static/img/manual/image187.png",
+      "bytes": 64440,
+      "sha256": "fc366c9495288fb67601e9bf766d215b2f654677c2a832d2fd87695879aad5eb",
+      "width": 1004,
+      "height": 203,
+      "references": 1
+    },
+    {
+      "source": "word/media/image188.png",
+      "path": "static/img/manual/image188.png",
+      "bytes": 62519,
+      "sha256": "e80c2e3c0c8c1b26b2d5457000d37bc3860d58441ff7c0d8cba3bcfe7bb2b59e",
+      "width": 1155,
+      "height": 673,
+      "references": 1
+    },
+    {
+      "source": "word/media/image189.png",
+      "path": "static/img/manual/image189.png",
+      "bytes": 50657,
+      "sha256": "3587c11b06a660d906336f85ae98cb23e0b80c2156af6ffda93fe1c377a05192",
+      "width": 911,
+      "height": 485,
+      "references": 1
+    },
+    {
+      "source": "word/media/image19.png",
+      "path": "static/img/manual/image19.png",
+      "bytes": 496532,
+      "sha256": "fac01373869768a1c0178b2c7f602e3f7ebe5d24740f1020f9602bd52912ef81",
+      "width": 1280,
+      "height": 720,
+      "references": 1
+    },
+    {
+      "source": "word/media/image2.png",
+      "path": "static/img/manual/image2.png",
+      "bytes": 146937,
+      "sha256": "49e5352439ffea7f8de0085d49bcdcea1691015c5bcefec9b4cbb4c687416a15",
+      "width": 1816,
+      "height": 2569,
+      "references": 1
+    },
+    {
+      "source": "word/media/image20.png",
+      "path": "static/img/manual/image20.png",
+      "bytes": 542687,
+      "sha256": "0c5ea2a9c8d9d5674e966146801565213e11781845b10aac04079d5b8436ddba",
+      "width": 1280,
+      "height": 720,
+      "references": 1
+    },
+    {
+      "source": "word/media/image21.png",
+      "path": "static/img/manual/image21.png",
+      "bytes": 165658,
+      "sha256": "e04bfb31884575adace6849ac73324f3c961834f74a3ba37047da53b559b8a16",
+      "width": 1321,
+      "height": 359,
+      "references": 1
+    },
+    {
+      "source": "word/media/image22.png",
+      "path": "static/img/manual/image22.png",
+      "bytes": 467457,
+      "sha256": "c86c82194b1b865651ff2f944a44d690ae574ab83174969f6898336f63e9fc39",
+      "width": 1280,
+      "height": 720,
+      "references": 1
+    },
+    {
+      "source": "word/media/image23.png",
+      "path": "static/img/manual/image23.png",
+      "bytes": 90803,
+      "sha256": "fb71563857cc142b4f3cb4fdb15db465d696ddb9c67b851388a52eae12f8936d",
+      "width": 2130,
+      "height": 566,
+      "references": 1
+    },
+    {
+      "source": "word/media/image24.png",
+      "path": "static/img/manual/image24.png",
+      "bytes": 24582,
+      "sha256": "70768565cbb22d62e6b0343c47cc679770e4ca42ebce01f7a80f9838f6d74031",
+      "width": 1840,
+      "height": 132,
+      "references": 1
+    },
+    {
+      "source": "word/media/image25.png",
+      "path": "static/img/manual/image25.png",
+      "bytes": 587294,
+      "sha256": "37339f09e2e95268d948cde9c6da721513eefaaf17608f94c7dd669268e466b8",
+      "width": 1398,
+      "height": 791,
+      "references": 1
+    },
+    {
+      "source": "word/media/image26.png",
+      "path": "static/img/manual/image26.png",
+      "bytes": 583578,
+      "sha256": "c08aefbfba98d04ff68e5fe171be9e1f3ccf64da6099a6e44357e4c5aff6bff6",
+      "width": 1395,
+      "height": 791,
+      "references": 1
+    },
+    {
+      "source": "word/media/image27.png",
+      "path": "static/img/manual/image27.png",
+      "bytes": 511058,
+      "sha256": "703606ca602024f4b41f59919980763272e2ada038d15e922456a2c2748f9684",
+      "width": 1381,
+      "height": 780,
+      "references": 1
+    },
+    {
+      "source": "word/media/image28.png",
+      "path": "static/img/manual/image28.png",
+      "bytes": 134072,
+      "sha256": "b51a5bcb2e4c76bc992b82540fcaba704a6e253d0442baeca5258c1dc46bed43",
+      "width": 1490,
+      "height": 812,
+      "references": 1
+    },
+    {
+      "source": "word/media/image29.png",
+      "path": "static/img/manual/image29.png",
+      "bytes": 37475,
+      "sha256": "21531f26c64e38992d238fe2fb314e1ede2cfa7501809513d1b6c6a23e23a1a5",
+      "width": 931,
+      "height": 305,
+      "references": 1
+    },
+    {
+      "source": "word/media/image3.png",
+      "path": "static/img/manual/image3.png",
+      "bytes": 17158,
+      "sha256": "c39f674ca03a39e27441ee64f99803d3be1981919a07b1b087201f82970b9724",
+      "width": 606,
+      "height": 183,
+      "references": 1
+    },
+    {
+      "source": "word/media/image30.png",
+      "path": "static/img/manual/image30.png",
+      "bytes": 180591,
+      "sha256": "8ba221dd7b58eb5b2a15d00d2bf1bc76a14a71c72e755742fd35e0ef66fd3522",
+      "width": 2209,
+      "height": 1251,
+      "references": 1
+    },
+    {
+      "source": "word/media/image31.png",
+      "path": "static/img/manual/image31.png",
+      "bytes": 26061,
+      "sha256": "91a6f9919dcd47fddbc2ae9cec682f50ee074d149dd6e2141c7149aea715599c",
+      "width": 1031,
+      "height": 192,
+      "references": 1
+    },
+    {
+      "source": "word/media/image32.png",
+      "path": "static/img/manual/image32.png",
+      "bytes": 110755,
+      "sha256": "18efa49fdfd8a29633fb758dedd7dcae7208c5acfdb987628074937f4be9029e",
+      "width": 1493,
+      "height": 598,
+      "references": 1
+    },
+    {
+      "source": "word/media/image33.png",
+      "path": "static/img/manual/image33.png",
+      "bytes": 152470,
+      "sha256": "da1558742beed4aceae88fa860b5ab6fd0ea44e08afd61b220ff044dc6e69a6c",
+      "width": 1588,
+      "height": 810,
+      "references": 1
+    },
+    {
+      "source": "word/media/image34.png",
+      "path": "static/img/manual/image34.png",
+      "bytes": 216972,
+      "sha256": "e23d084939e669738029efb40c4d8dc3bbd403e2fd9619c1a218fba12143d60c",
+      "width": 1335,
+      "height": 733,
+      "references": 1
+    },
+    {
+      "source": "word/media/image35.png",
+      "path": "static/img/manual/image35.png",
+      "bytes": 127622,
+      "sha256": "8bfd8f187f5025941097330b15984808d5257250ba9d99f9628e5383e7adb91e",
+      "width": 1218,
+      "height": 1170,
+      "references": 1
+    },
+    {
+      "source": "word/media/image36.png",
+      "path": "static/img/manual/image36.png",
+      "bytes": 36753,
+      "sha256": "58068bdb26aabc8cdef020f56d7c1e313138141161de67b280bfe0b8af1e22a3",
+      "width": 925,
+      "height": 381,
+      "references": 1
+    },
+    {
+      "source": "word/media/image37.png",
+      "path": "static/img/manual/image37.png",
+      "bytes": 50124,
+      "sha256": "43ca9665efec6c945c0c1eb47a06f4495ecc826a561bc1442f7235ff9a511203",
+      "width": 1148,
+      "height": 449,
+      "references": 1
+    },
+    {
+      "source": "word/media/image38.png",
+      "path": "static/img/manual/image38.png",
+      "bytes": 52582,
+      "sha256": "b8ec3248232c1603642f5a50235c213faa10762749e3f681ab564be702968909",
+      "width": 841,
+      "height": 350,
+      "references": 1
+    },
+    {
+      "source": "word/media/image39.png",
+      "path": "static/img/manual/image39.png",
+      "bytes": 8745,
+      "sha256": "5ed92b5b453b9da7a6e832149f859af7a6d823f11104558db30feb0377989bc8",
+      "width": 808,
+      "height": 167,
+      "references": 1
+    },
+    {
+      "source": "word/media/image4.png",
+      "path": "static/img/manual/image4.png",
+      "bytes": 983517,
+      "sha256": "e99f8e2b30e0f94c52b9ce77a6daf70aa63bb26969f5cf6704b33650ee1dca7c",
+      "width": 913,
+      "height": 584,
+      "references": 1
+    },
+    {
+      "source": "word/media/image40.png",
+      "path": "static/img/manual/image40.png",
+      "bytes": 6787,
+      "sha256": "0e1ecebe9e3499b4c60d1503574826f645e4425a4f86d9bb7aa506cc4e4be375",
+      "width": 355,
+      "height": 127,
+      "references": 1
+    },
+    {
+      "source": "word/media/image41.png",
+      "path": "static/img/manual/image41.png",
+      "bytes": 16770,
+      "sha256": "8cd73961ab27bc78278c103c3984277ffc734df0d684a5bf694f8bcc85666733",
+      "width": 634,
+      "height": 194,
+      "references": 1
+    },
+    {
+      "source": "word/media/image42.png",
+      "path": "static/img/manual/image42.png",
+      "bytes": 105559,
+      "sha256": "9cdf96a97862942d70da3753342fd11ab102bcf16809d41e9a2db9c08d4b1fe9",
+      "width": 2243,
+      "height": 320,
+      "references": 1
+    },
+    {
+      "source": "word/media/image43.png",
+      "path": "static/img/manual/image43.png",
+      "bytes": 141267,
+      "sha256": "3e44523e5bcdaf9f9f29989c6dd8a029b7be6d3b8243f8cc020ee69f9140536a",
+      "width": 1328,
+      "height": 721,
+      "references": 1
+    },
+    {
+      "source": "word/media/image44.png",
+      "path": "static/img/manual/image44.png",
+      "bytes": 143338,
+      "sha256": "763dcc2ac298b70ac2aee1f395cd4945e533785c12173cfa6575c0aebbab3b5b",
+      "width": 1440,
+      "height": 780,
+      "references": 1
+    },
+    {
+      "source": "word/media/image45.png",
+      "path": "static/img/manual/image45.png",
+      "bytes": 46559,
+      "sha256": "87005fe6b8565874d1c5d0dd568600e56ba219b7de6279f61507fd84c052fdb1",
+      "width": 954,
+      "height": 483,
+      "references": 1
+    },
+    {
+      "source": "word/media/image46.png",
+      "path": "static/img/manual/image46.png",
+      "bytes": 65952,
+      "sha256": "077c278ad491f3ab50131bf6bb639de7b4ed3aa6724454264209b5d747468ad5",
+      "width": 581,
+      "height": 341,
+      "references": 1
+    },
+    {
+      "source": "word/media/image47.png",
+      "path": "static/img/manual/image47.png",
+      "bytes": 118613,
+      "sha256": "d7f63c1095405ecdf6e11c19770f07baa31e863b28aab0914afd9438f642c1fa",
+      "width": 966,
+      "height": 536,
+      "references": 1
+    },
+    {
+      "source": "word/media/image48.png",
+      "path": "static/img/manual/image48.png",
+      "bytes": 100149,
+      "sha256": "54ef738006b20f3d380267e1c860ed9ebcd1bb46dcf44eba6f3e3623306c0b28",
+      "width": 954,
+      "height": 503,
+      "references": 1
+    },
+    {
+      "source": "word/media/image49.png",
+      "path": "static/img/manual/image49.png",
+      "bytes": 17441,
+      "sha256": "0836527bf2936f38e4375eb567a593e9145cafb6054b5643ac8fdff9abe79781",
+      "width": 953,
+      "height": 274,
+      "references": 1
+    },
+    {
+      "source": "word/media/image5.png",
+      "path": "static/img/manual/image5.png",
+      "bytes": 1018417,
+      "sha256": "da0f22c70a9b31f5d68b8733bec3f2c7943784429ddac260f6e4804bc58a230c",
+      "width": 885,
+      "height": 616,
+      "references": 1
+    },
+    {
+      "source": "word/media/image50.png",
+      "path": "static/img/manual/image50.png",
+      "bytes": 89335,
+      "sha256": "e993e2cd33c597c1a4dc46c774d72fa8b734a6e0612f3d2a52bca1bbd0944f74",
+      "width": 675,
+      "height": 215,
+      "references": 1
+    },
+    {
+      "source": "word/media/image51.png",
+      "path": "static/img/manual/image51.png",
+      "bytes": 256032,
+      "sha256": "455dbfa21dac3efca2c5c593bd7a8090f6d7db55c44bd6a97b7767360b7bac62",
+      "width": 914,
+      "height": 717,
+      "references": 1
+    },
+    {
+      "source": "word/media/image52.png",
+      "path": "static/img/manual/image52.png",
+      "bytes": 44836,
+      "sha256": "5831ec51654240c496ea27854e839ad08252493c83f8204035d3afb48c3b5f3c",
+      "width": 542,
+      "height": 185,
+      "references": 1
+    },
+    {
+      "source": "word/media/image53.png",
+      "path": "static/img/manual/image53.png",
+      "bytes": 110748,
+      "sha256": "6074b5a1db5e470aaef025bca11a95d80d859b1576b8f78e813a499181d7ee37",
+      "width": 959,
+      "height": 462,
+      "references": 1
+    },
+    {
+      "source": "word/media/image54.png",
+      "path": "static/img/manual/image54.png",
+      "bytes": 195937,
+      "sha256": "b70d9b343f526b9f7254044b0529d95dad46c78d41ed697bc3019be78089cbfa",
+      "width": 1011,
+      "height": 594,
+      "references": 1
+    },
+    {
+      "source": "word/media/image55.png",
+      "path": "static/img/manual/image55.png",
+      "bytes": 67916,
+      "sha256": "0968c46350681afd6aa812f96a520530fe02a5ad5114ab86159f8cd75bc2f3c7",
+      "width": 948,
+      "height": 499,
+      "references": 1
+    },
+    {
+      "source": "word/media/image56.png",
+      "path": "static/img/manual/image56.png",
+      "bytes": 73422,
+      "sha256": "398b5f93fd02858bef41b4916105a2b7e6237706a54439315cc6823a1ca3c500",
+      "width": 730,
+      "height": 330,
+      "references": 1
+    },
+    {
+      "source": "word/media/image57.png",
+      "path": "static/img/manual/image57.png",
+      "bytes": 73807,
+      "sha256": "3d6a85c185e803e15442dd80f6a40ef1c69907cc385b11ef4e54f90c9926ebe9",
+      "width": 731,
+      "height": 335,
+      "references": 1
+    },
+    {
+      "source": "word/media/image58.png",
+      "path": "static/img/manual/image58.png",
+      "bytes": 49428,
+      "sha256": "7264d4da17fe9c7666d0394f9329f64e21548dbb9b52c6a1ab11b410949ac672",
+      "width": 1368,
+      "height": 824,
+      "references": 1
+    },
+    {
+      "source": "word/media/image59.png",
+      "path": "static/img/manual/image59.png",
+      "bytes": 22384,
+      "sha256": "24d2654a7ac9f4deb0adb54415be984a113d7f00dc1041ba15259f567e92af6f",
+      "width": 736,
+      "height": 493,
+      "references": 1
+    },
+    {
+      "source": "word/media/image6.png",
+      "path": "static/img/manual/image6.png",
+      "bytes": 879056,
+      "sha256": "4c019a8644bd9c6f747580077d6ce6c2395100e8227a18ee73ce0ea4f1e24448",
+      "width": 1011,
+      "height": 623,
+      "references": 1
+    },
+    {
+      "source": "word/media/image60.png",
+      "path": "static/img/manual/image60.png",
+      "bytes": 29941,
+      "sha256": "ee42fa8899ef78d99e1626b6987db0eadbb07a6439d6401e47f7168f4b248dd4",
+      "width": 732,
+      "height": 490,
+      "references": 1
+    },
+    {
+      "source": "word/media/image61.png",
+      "path": "static/img/manual/image61.png",
+      "bytes": 45139,
+      "sha256": "3d1f88f64270fcae28042379e7ae2cf724bf91eb913f15c3b1472b4fb2a19423",
+      "width": 733,
+      "height": 491,
+      "references": 1
+    },
+    {
+      "source": "word/media/image62.png",
+      "path": "static/img/manual/image62.png",
+      "bytes": 37070,
+      "sha256": "1c6bc1bfa6308c7cfcb8d667cf27c5d2c4be76181eabe94bc881e2ce0187ae8e",
+      "width": 733,
+      "height": 484,
+      "references": 1
+    },
+    {
+      "source": "word/media/image63.png",
+      "path": "static/img/manual/image63.png",
+      "bytes": 22964,
+      "sha256": "c76d3d03d1dc4da5fdf5bc0e04909842171d322052453133ebb28b587fc6c788",
+      "width": 661,
+      "height": 115,
+      "references": 1
+    },
+    {
+      "source": "word/media/image64.png",
+      "path": "static/img/manual/image64.png",
+      "bytes": 8237,
+      "sha256": "14a29c8cfb4eef93ad0bfb8eab7038cb86768f1cd00e288d2c79753c676cc6cf",
+      "width": 291,
+      "height": 74,
+      "references": 1
+    },
+    {
+      "source": "word/media/image65.png",
+      "path": "static/img/manual/image65.png",
+      "bytes": 27061,
+      "sha256": "2b901336d22f722e1b61b7343ed89de54fe2b4fa1182f1577e2ca3b3c0823ab7",
+      "width": 801,
+      "height": 576,
+      "references": 1
+    },
+    {
+      "source": "word/media/image66.png",
+      "path": "static/img/manual/image66.png",
+      "bytes": 97316,
+      "sha256": "2c8b5f47f842bd72b0971a329f621bbe165001c65a1229fc06918740860370ee",
+      "width": 1553,
+      "height": 558,
+      "references": 1
+    },
+    {
+      "source": "word/media/image67.png",
+      "path": "static/img/manual/image67.png",
+      "bytes": 132442,
+      "sha256": "59a85dfd50f25deb821f65b099ac8ba9b7d7cb7432f6c43326506c017abe7b06",
+      "width": 1626,
+      "height": 808,
+      "references": 1
+    },
+    {
+      "source": "word/media/image68.png",
+      "path": "static/img/manual/image68.png",
+      "bytes": 23011,
+      "sha256": "469f043a2566b383a05f05dcece0eb68a9c7e328f9cfb4b793c7c7807ac8951e",
+      "width": 1478,
+      "height": 206,
+      "references": 1
+    },
+    {
+      "source": "word/media/image69.png",
+      "path": "static/img/manual/image69.png",
+      "bytes": 90037,
+      "sha256": "6ff7e33080900d3c10fa00a830ba8335e55efa1b65ab4049bc34ae38931aa79f",
+      "width": 1346,
+      "height": 722,
+      "references": 1
+    },
+    {
+      "source": "word/media/image7.png",
+      "path": "static/img/manual/image7.png",
+      "bytes": 568390,
+      "sha256": "49185f9a38dd6e27e11e63e4ed126a919de61ba8b20a91f379a0d1ff3ab47b13",
+      "width": 1107,
+      "height": 652,
+      "references": 1
+    },
+    {
+      "source": "word/media/image70.png",
+      "path": "static/img/manual/image70.png",
+      "bytes": 315545,
+      "sha256": "20ff4182bfcf15df7ff19b4bee0b1549b0cc76ece602bd379ad83f42b44da204",
+      "width": 1468,
+      "height": 739,
+      "references": 1
+    },
+    {
+      "source": "word/media/image71.png",
+      "path": "static/img/manual/image71.png",
+      "bytes": 63101,
+      "sha256": "5db090371a28fd8abf025f46c69f5f385cd981d52c150c12a6e5e617ceca1226",
+      "width": 634,
+      "height": 1014,
+      "references": 1
+    },
+    {
+      "source": "word/media/image72.png",
+      "path": "static/img/manual/image72.png",
+      "bytes": 97224,
+      "sha256": "63a74da832389647464773f47163803e10c7e21f307d30a2559a3e91c5228afd",
+      "width": 1633,
+      "height": 745,
+      "references": 1
+    },
+    {
+      "source": "word/media/image73.png",
+      "path": "static/img/manual/image73.png",
+      "bytes": 45544,
+      "sha256": "da715f971848832629843e2d628af13c3dcda619e38173cf8a010a836aa42d2e",
+      "width": 1283,
+      "height": 534,
+      "references": 1
+    },
+    {
+      "source": "word/media/image74.png",
+      "path": "static/img/manual/image74.png",
+      "bytes": 75035,
+      "sha256": "3a98a1e667950a32b01f91de71a9f220692db5bdcdfbd15c71dca8cfc4f01b9a",
+      "width": 1785,
+      "height": 350,
+      "references": 1
+    },
+    {
+      "source": "word/media/image75.png",
+      "path": "static/img/manual/image75.png",
+      "bytes": 207070,
+      "sha256": "343ba2468e790380eac2a32745c07baa229f8722e9706f493b193a2227c699fa",
+      "width": 1344,
+      "height": 431,
+      "references": 1
+    },
+    {
+      "source": "word/media/image76.png",
+      "path": "static/img/manual/image76.png",
+      "bytes": 12170,
+      "sha256": "e0f583156823aef25132883ba0cd2950e507c1af70e0cda2c9f5b085476fb27b",
+      "width": 739,
+      "height": 216,
+      "references": 1
+    },
+    {
+      "source": "word/media/image77.png",
+      "path": "static/img/manual/image77.png",
+      "bytes": 2870,
+      "sha256": "6461ef7d34a6102ab62f88a5ff0e366edc83adb705ed69b15de0034591718b56",
+      "width": 160,
+      "height": 250,
+      "references": 1
+    },
+    {
+      "source": "word/media/image78.png",
+      "path": "static/img/manual/image78.png",
+      "bytes": 17425,
+      "sha256": "48a67b20b403892623f945fde98d02e24e9a0d58dd662aa59465bb3e825483a4",
+      "width": 493,
+      "height": 497,
+      "references": 1
+    },
+    {
+      "source": "word/media/image79.png",
+      "path": "static/img/manual/image79.png",
+      "bytes": 11038,
+      "sha256": "0467e07d5258f88f8e22d6bd2a6c456e7cbfa0e80446bcd09cf91b142f5a01ab",
+      "width": 420,
+      "height": 398,
+      "references": 1
+    },
+    {
+      "source": "word/media/image8.png",
+      "path": "static/img/manual/image8.png",
+      "bytes": 447445,
+      "sha256": "e0ccaff2cb21a864be5b44c6cb4133314342b1f19b640b4cbf88cd4e13f3fd0c",
+      "width": 1060,
+      "height": 354,
+      "references": 1
+    },
+    {
+      "source": "word/media/image80.png",
+      "path": "static/img/manual/image80.png",
+      "bytes": 60870,
+      "sha256": "ca0afe6ba7192e307f5e81e719ad5c89843e1eb7abf521f3dafcfacd828afb8e",
+      "width": 1745,
+      "height": 270,
+      "references": 1
+    },
+    {
+      "source": "word/media/image81.png",
+      "path": "static/img/manual/image81.png",
+      "bytes": 62150,
+      "sha256": "380581353ad0466c4b2a1f0c731e4a0959a6c55eac636898b0c1c84be57c2c85",
+      "width": 1739,
+      "height": 267,
+      "references": 1
+    },
+    {
+      "source": "word/media/image82.png",
+      "path": "static/img/manual/image82.png",
+      "bytes": 37671,
+      "sha256": "9d03d8de393031b02a99ff3ef295b9f4da65ca3ada5fc6f9adba2558f201ea91",
+      "width": 627,
+      "height": 788,
+      "references": 1
+    },
+    {
+      "source": "word/media/image83.png",
+      "path": "static/img/manual/image83.png",
+      "bytes": 31966,
+      "sha256": "4c64b5f314c814f9ec72202b500f511497d94b589ca2382ed8e558c6eb33e575",
+      "width": 636,
+      "height": 769,
+      "references": 1
+    },
+    {
+      "source": "word/media/image84.png",
+      "path": "static/img/manual/image84.png",
+      "bytes": 38173,
+      "sha256": "8c21ec3dbc76184657c83f53336a8adb77202b292378b635befdc793b69c755b",
+      "width": 682,
+      "height": 821,
+      "references": 1
+    },
+    {
+      "source": "word/media/image85.png",
+      "path": "static/img/manual/image85.png",
+      "bytes": 29710,
+      "sha256": "6bfca032902f4962ebce75aa38c0cc6984d448926a45c4c536bf265b2110500e",
+      "width": 1316,
+      "height": 833,
+      "references": 1
+    },
+    {
+      "source": "word/media/image86.png",
+      "path": "static/img/manual/image86.png",
+      "bytes": 28590,
+      "sha256": "2bf96ac4d619093834f351c14b4a255a25bd2b1a936e669b989b93b3631df2bf",
+      "width": 978,
+      "height": 579,
+      "references": 1
+    },
+    {
+      "source": "word/media/image87.png",
+      "path": "static/img/manual/image87.png",
+      "bytes": 29525,
+      "sha256": "2cc13a77057c79bf85ba579680f16875d210a80ab8194a61f62d5002af52cacd",
+      "width": 1073,
+      "height": 591,
+      "references": 1
+    },
+    {
+      "source": "word/media/image88.png",
+      "path": "static/img/manual/image88.png",
+      "bytes": 10978,
+      "sha256": "dc770d85accc00eb41848a12179b3661ae8333ded9ef08256d1ce5e1e6699490",
+      "width": 625,
+      "height": 427,
+      "references": 1
+    },
+    {
+      "source": "word/media/image89.png",
+      "path": "static/img/manual/image89.png",
+      "bytes": 36883,
+      "sha256": "30da8528b6b83bb95ba486b99d2fbb81d450c9560b8d5d77c7b44d422950f9de",
+      "width": 959,
+      "height": 311,
+      "references": 1
+    },
+    {
+      "source": "word/media/image9.png",
+      "path": "static/img/manual/image9.png",
+      "bytes": 618761,
+      "sha256": "61991ad73487b0da2b996c264599b897a57c5abc45dfedaf217d6b89f1ba68c9",
+      "width": 835,
+      "height": 505,
+      "references": 1
+    },
+    {
+      "source": "word/media/image90.png",
+      "path": "static/img/manual/image90.png",
+      "bytes": 14112,
+      "sha256": "9638dcd3bcd0b16fd77390db79321f4fca48d44c5b99857ff77d8bd3b5eaf4be",
+      "width": 969,
+      "height": 144,
+      "references": 1
+    },
+    {
+      "source": "word/media/image91.png",
+      "path": "static/img/manual/image91.png",
+      "bytes": 17499,
+      "sha256": "375ca6ff7dfed1ad05e69cd418aa1c089e2787665fa54913ebbcd0470838eb3e",
+      "width": 981,
+      "height": 155,
+      "references": 1
+    },
+    {
+      "source": "word/media/image92.png",
+      "path": "static/img/manual/image92.png",
+      "bytes": 125353,
+      "sha256": "0ba0f6e9d60d0aaa3234bc7f7f72a36c90bc76156353b8922571e2d56cb662ef",
+      "width": 1122,
+      "height": 379,
+      "references": 1
+    },
+    {
+      "source": "word/media/image93.png",
+      "path": "static/img/manual/image93.png",
+      "bytes": 15851,
+      "sha256": "9cb31abc086c0a7a08bc7435fe52ba5ed0757c2f2d216308b3bd55946b5d74ec",
+      "width": 682,
+      "height": 392,
+      "references": 1
+    },
+    {
+      "source": "word/media/image94.png",
+      "path": "static/img/manual/image94.png",
+      "bytes": 8878,
+      "sha256": "3b3244c7a7addb578f04c3f0852cea069947ed15a8e60cfb011fce747f705908",
+      "width": 416,
+      "height": 225,
+      "references": 1
+    },
+    {
+      "source": "word/media/image95.png",
+      "path": "static/img/manual/image95.png",
+      "bytes": 10219,
+      "sha256": "d1e50af1547d869d99bac7086698df8cef2101e15767042ab9e68051e9d3e37c",
+      "width": 361,
+      "height": 204,
+      "references": 1
+    },
+    {
+      "source": "word/media/image96.png",
+      "path": "static/img/manual/image96.png",
+      "bytes": 16161,
+      "sha256": "5938c257fbbd95bcc1d81d7603e1812dbeeec3f6f8b7868a265250f908eb1dca",
+      "width": 663,
+      "height": 140,
+      "references": 1
+    },
+    {
+      "source": "word/media/image97.png",
+      "path": "static/img/manual/image97.png",
+      "bytes": 12368,
+      "sha256": "416e50ff0d598267f1b219492b5997d1058f02517d2c8b5bdc6b959992ad9729",
+      "width": 424,
+      "height": 102,
+      "references": 1
+    },
+    {
+      "source": "word/media/image98.png",
+      "path": "static/img/manual/image98.png",
+      "bytes": 12739,
+      "sha256": "7b909d88812ca7b24fe8379793ebaaf5a1fb29dbbafcb8de25fa29f08f02dedd",
+      "width": 630,
+      "height": 109,
+      "references": 1
+    },
+    {
+      "source": "word/media/image99.png",
+      "path": "static/img/manual/image99.png",
+      "bytes": 12741,
+      "sha256": "96e8d0fc9ca4e128b50deb444d4e8e5a8c219109d9847f344fffba090dbf648e",
+      "width": 629,
+      "height": 103,
+      "references": 1
+    }
+  ]
+}
